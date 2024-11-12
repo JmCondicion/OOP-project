@@ -28,7 +28,7 @@
               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
               <Component id="LogoName" min="-2" pref="229" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="124" max="-2" attributes="0"/>
+              <Component id="CoffeeMenu" min="-2" pref="124" max="-2" attributes="0"/>
               <EmptySpace pref="454" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
@@ -42,7 +42,7 @@
           <Group type="102" alignment="1" attributes="0">
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="LogoName" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="CoffeeMenu" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" pref="596" max="-2" attributes="0"/>
@@ -74,32 +74,32 @@
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" attributes="0">
-                                      <Component id="Coffee2" min="-2" pref="211" max="-2" attributes="0"/>
+                                      <Component id="ConPanna" min="-2" pref="211" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Coffee11" min="-2" pref="211" max="-2" attributes="0"/>
+                                      <Component id="Espresso" min="-2" pref="211" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="Coffee8" pref="0" max="32767" attributes="0"/>
-                                          <Component id="Coffee4" min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Component id="Americano" pref="0" max="32767" attributes="0"/>
+                                          <Component id="WhiteMocha" min="-2" pref="211" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="Coffee9" alignment="0" min="-2" pref="211" max="-2" attributes="0"/>
-                                          <Component id="Coffee7" alignment="1" min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Component id="DarkChocolate" alignment="0" min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Component id="Brewd" alignment="1" min="-2" pref="211" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                                      <Component id="Coffee1" min="-2" pref="211" max="-2" attributes="0"/>
+                                      <Component id="Cappuccino" min="-2" pref="211" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="Coffee12" min="-2" pref="211" max="-2" attributes="0"/>
-                                          <Component id="Coffee5" min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Component id="Cortado" min="-2" pref="211" max="-2" attributes="0"/>
+                                          <Component id="Hazelnut" min="-2" pref="211" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -115,9 +115,9 @@
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Coffee10" min="-2" pref="211" max="-2" attributes="0"/>
-                                  <Component id="Coffee6" min="-2" pref="211" max="-2" attributes="0"/>
-                                  <Component id="Coffee13" min="-2" pref="211" max="-2" attributes="0"/>
+                                  <Component id="Caramel" min="-2" pref="211" max="-2" attributes="0"/>
+                                  <Component id="Latte" min="-2" pref="211" max="-2" attributes="0"/>
+                                  <Component id="Cacao" min="-2" pref="211" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -136,28 +136,28 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Coffee1" max="32767" attributes="0"/>
-                          <Component id="Coffee7" max="32767" attributes="0"/>
-                          <Component id="Coffee10" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Coffee8" max="32767" attributes="0"/>
+                          <Component id="Cappuccino" max="32767" attributes="0"/>
+                          <Component id="Brewd" max="32767" attributes="0"/>
+                          <Component id="Caramel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Americano" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Coffee4" max="32767" attributes="0"/>
-                              <Component id="Coffee9" max="32767" attributes="0"/>
+                              <Component id="WhiteMocha" max="32767" attributes="0"/>
+                              <Component id="DarkChocolate" max="32767" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="Coffee5" alignment="0" max="32767" attributes="0"/>
-                              <Component id="Coffee6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Hazelnut" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Latte" alignment="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Coffee11" max="32767" attributes="0"/>
-                          <Component id="Coffee2" max="32767" attributes="0"/>
-                          <Component id="Coffee12" max="32767" attributes="0"/>
-                          <Component id="Coffee13" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Espresso" max="32767" attributes="0"/>
+                          <Component id="ConPanna" max="32767" attributes="0"/>
+                          <Component id="Cortado" max="32767" attributes="0"/>
+                          <Component id="Cacao" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -172,7 +172,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="Coffee1">
+            <Container class="javax.swing.JPanel" name="Cappuccino">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -389,7 +389,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee2">
+            <Container class="javax.swing.JPanel" name="ConPanna">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -606,7 +606,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee4">
+            <Container class="javax.swing.JPanel" name="WhiteMocha">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -828,7 +828,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee5">
+            <Container class="javax.swing.JPanel" name="Hazelnut">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -1045,7 +1045,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee6">
+            <Container class="javax.swing.JPanel" name="Latte">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -1262,7 +1262,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee7">
+            <Container class="javax.swing.JPanel" name="Brewd">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -1479,7 +1479,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee8">
+            <Container class="javax.swing.JPanel" name="Americano">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -1696,7 +1696,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee9">
+            <Container class="javax.swing.JPanel" name="DarkChocolate">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -1913,7 +1913,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee10">
+            <Container class="javax.swing.JPanel" name="Caramel">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -2130,7 +2130,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee11">
+            <Container class="javax.swing.JPanel" name="Espresso">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -2347,7 +2347,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee12">
+            <Container class="javax.swing.JPanel" name="Cortado">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -2564,7 +2564,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="Coffee13">
+            <Container class="javax.swing.JPanel" name="Cacao">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
@@ -2823,7 +2823,7 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="CoffeeMenu">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI Historic" size="18" style="3"/>
