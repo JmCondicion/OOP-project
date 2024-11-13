@@ -141,7 +141,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize7 = new javax.swing.JCheckBox();
         LargeSize7 = new javax.swing.JCheckBox();
         ExtraLarge7 = new javax.swing.JCheckBox();
-        Coffee8 = new javax.swing.JPanel();
+        Americano = new javax.swing.JPanel();
         CoffeeName8 = new javax.swing.JLabel();
         CoffeePrice8 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
@@ -160,7 +160,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize8 = new javax.swing.JCheckBox();
         LargeSize8 = new javax.swing.JCheckBox();
         ExtraLarge8 = new javax.swing.JCheckBox();
-        Coffee9 = new javax.swing.JPanel();
+        DarkChocolate = new javax.swing.JPanel();
         CoffeeName9 = new javax.swing.JLabel();
         CoffeePrice9 = new javax.swing.JLabel();
         jLabel58 = new javax.swing.JLabel();
@@ -179,7 +179,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize9 = new javax.swing.JCheckBox();
         LargeSize9 = new javax.swing.JCheckBox();
         ExtraLarge9 = new javax.swing.JCheckBox();
-        Coffee10 = new javax.swing.JPanel();
+        Caramel = new javax.swing.JPanel();
         CoffeeName10 = new javax.swing.JLabel();
         CoffeePrice10 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
@@ -198,7 +198,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize10 = new javax.swing.JCheckBox();
         LargeSize10 = new javax.swing.JCheckBox();
         ExtraLarge10 = new javax.swing.JCheckBox();
-        Coffee11 = new javax.swing.JPanel();
+        Espresso = new javax.swing.JPanel();
         CoffeeName11 = new javax.swing.JLabel();
         CoffeePrice11 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
@@ -217,7 +217,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize11 = new javax.swing.JCheckBox();
         LargeSize11 = new javax.swing.JCheckBox();
         ExtraLarge11 = new javax.swing.JCheckBox();
-        Coffee12 = new javax.swing.JPanel();
+        Cortado = new javax.swing.JPanel();
         CoffeeName12 = new javax.swing.JLabel();
         CoffeePrice12 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
@@ -236,7 +236,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         MediumSize12 = new javax.swing.JCheckBox();
         LargeSize12 = new javax.swing.JCheckBox();
         ExtraLarge12 = new javax.swing.JCheckBox();
-        Coffee13 = new javax.swing.JPanel();
+        Cacao = new javax.swing.JPanel();
         CoffeeName13 = new javax.swing.JLabel();
         CoffeePrice13 = new javax.swing.JLabel();
         jLabel82 = new javax.swing.JLabel();
@@ -1064,8 +1064,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Coffee8.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Americano.setBackground(new java.awt.Color(246, 246, 246));
+        Americano.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName8.setText("Name:");
 
@@ -1103,92 +1103,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee8Layout = new javax.swing.GroupLayout(Coffee8);
-        Coffee8.setLayout(Coffee8Layout);
-        Coffee8Layout.setHorizontalGroup(
-            Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee8Layout.createSequentialGroup()
+        javax.swing.GroupLayout AmericanoLayout = new javax.swing.GroupLayout(Americano);
+        Americano.setLayout(AmericanoLayout);
+        AmericanoLayout.setHorizontalGroup(
+            AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AmericanoLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee8Layout.createSequentialGroup()
-                        .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee8Layout.createSequentialGroup()
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(AmericanoLayout.createSequentialGroup()
+                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(AmericanoLayout.createSequentialGroup()
                                 .addComponent(jLabel53)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item19))
-                            .addGroup(Coffee8Layout.createSequentialGroup()
+                            .addGroup(AmericanoLayout.createSequentialGroup()
                                 .addComponent(CoffeSize8)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee8Layout.createSequentialGroup()
+                                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(AmericanoLayout.createSequentialGroup()
                                         .addComponent(jLabel54)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize8))
-                                    .addGroup(Coffee8Layout.createSequentialGroup()
+                                    .addGroup(AmericanoLayout.createSequentialGroup()
                                         .addComponent(jLabel56)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize8)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee8Layout.createSequentialGroup()
+                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(AmericanoLayout.createSequentialGroup()
                                 .addComponent(jLabel55)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize8))
-                            .addGroup(Coffee8Layout.createSequentialGroup()
+                            .addGroup(AmericanoLayout.createSequentialGroup()
                                 .addComponent(jLabel57)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge8))))
-                    .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee8Layout.createSequentialGroup()
+                    .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(AmericanoLayout.createSequentialGroup()
                             .addComponent(jLabel52)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner19))
-                        .addGroup(Coffee8Layout.createSequentialGroup()
-                            .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(AmericanoLayout.createSequentialGroup()
+                            .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName8)
                                 .addComponent(CoffeePrice8))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice12)
                                 .addComponent(coffeeName12)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee8Layout.createSequentialGroup()
+            .addGroup(AmericanoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage19, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee8Layout.setVerticalGroup(
-            Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee8Layout.createSequentialGroup()
+        AmericanoLayout.setVerticalGroup(
+            AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AmericanoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage19, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName8)
                     .addComponent(coffeeName12))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice8)
                     .addComponent(coffeePrice12))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel52)
                     .addComponent(jSpinner19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee8Layout.createSequentialGroup()
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(AmericanoLayout.createSequentialGroup()
                         .addComponent(jLabel53)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize8)
                             .addComponent(jLabel54)))
-                    .addGroup(Coffee8Layout.createSequentialGroup()
+                    .addGroup(AmericanoLayout.createSequentialGroup()
                         .addComponent(Item19)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize8)
                             .addComponent(jLabel55)
                             .addComponent(SmallSize8))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel56)
                     .addComponent(LargeSize8)
                     .addComponent(jLabel57)
@@ -1196,8 +1196,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Coffee9.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        DarkChocolate.setBackground(new java.awt.Color(246, 246, 246));
+        DarkChocolate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName9.setText("Name:");
 
@@ -1235,92 +1235,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee9Layout = new javax.swing.GroupLayout(Coffee9);
-        Coffee9.setLayout(Coffee9Layout);
-        Coffee9Layout.setHorizontalGroup(
-            Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee9Layout.createSequentialGroup()
+        javax.swing.GroupLayout DarkChocolateLayout = new javax.swing.GroupLayout(DarkChocolate);
+        DarkChocolate.setLayout(DarkChocolateLayout);
+        DarkChocolateLayout.setHorizontalGroup(
+            DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DarkChocolateLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee9Layout.createSequentialGroup()
-                        .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee9Layout.createSequentialGroup()
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(DarkChocolateLayout.createSequentialGroup()
+                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(DarkChocolateLayout.createSequentialGroup()
                                 .addComponent(jLabel59)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item20))
-                            .addGroup(Coffee9Layout.createSequentialGroup()
+                            .addGroup(DarkChocolateLayout.createSequentialGroup()
                                 .addComponent(CoffeSize9)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee9Layout.createSequentialGroup()
+                                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(DarkChocolateLayout.createSequentialGroup()
                                         .addComponent(jLabel60)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize9))
-                                    .addGroup(Coffee9Layout.createSequentialGroup()
+                                    .addGroup(DarkChocolateLayout.createSequentialGroup()
                                         .addComponent(jLabel62)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize9)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee9Layout.createSequentialGroup()
+                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(DarkChocolateLayout.createSequentialGroup()
                                 .addComponent(jLabel61)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize9))
-                            .addGroup(Coffee9Layout.createSequentialGroup()
+                            .addGroup(DarkChocolateLayout.createSequentialGroup()
                                 .addComponent(jLabel63)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge9))))
-                    .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee9Layout.createSequentialGroup()
+                    .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(DarkChocolateLayout.createSequentialGroup()
                             .addComponent(jLabel58)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner20))
-                        .addGroup(Coffee9Layout.createSequentialGroup()
-                            .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(DarkChocolateLayout.createSequentialGroup()
+                            .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName9)
                                 .addComponent(CoffeePrice9))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice13)
                                 .addComponent(coffeeName13)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee9Layout.createSequentialGroup()
+            .addGroup(DarkChocolateLayout.createSequentialGroup()
                 .addComponent(CoffeeImage20, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee9Layout.setVerticalGroup(
-            Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee9Layout.createSequentialGroup()
+        DarkChocolateLayout.setVerticalGroup(
+            DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DarkChocolateLayout.createSequentialGroup()
                 .addComponent(CoffeeImage20, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName9)
                     .addComponent(coffeeName13))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice9)
                     .addComponent(coffeePrice13))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel58)
                     .addComponent(jSpinner20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee9Layout.createSequentialGroup()
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(DarkChocolateLayout.createSequentialGroup()
                         .addComponent(jLabel59)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize9)
                             .addComponent(jLabel60)))
-                    .addGroup(Coffee9Layout.createSequentialGroup()
+                    .addGroup(DarkChocolateLayout.createSequentialGroup()
                         .addComponent(Item20)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize9)
                             .addComponent(jLabel61)
                             .addComponent(SmallSize9))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel62)
                     .addComponent(LargeSize9)
                     .addComponent(jLabel63)
@@ -1328,8 +1328,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Coffee10.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Caramel.setBackground(new java.awt.Color(246, 246, 246));
+        Caramel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName10.setText("Name:");
 
@@ -1367,92 +1367,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee10Layout = new javax.swing.GroupLayout(Coffee10);
-        Coffee10.setLayout(Coffee10Layout);
-        Coffee10Layout.setHorizontalGroup(
-            Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee10Layout.createSequentialGroup()
+        javax.swing.GroupLayout CaramelLayout = new javax.swing.GroupLayout(Caramel);
+        Caramel.setLayout(CaramelLayout);
+        CaramelLayout.setHorizontalGroup(
+            CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CaramelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee10Layout.createSequentialGroup()
-                        .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee10Layout.createSequentialGroup()
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CaramelLayout.createSequentialGroup()
+                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CaramelLayout.createSequentialGroup()
                                 .addComponent(jLabel65)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item21))
-                            .addGroup(Coffee10Layout.createSequentialGroup()
+                            .addGroup(CaramelLayout.createSequentialGroup()
                                 .addComponent(CoffeSize10)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee10Layout.createSequentialGroup()
+                                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(CaramelLayout.createSequentialGroup()
                                         .addComponent(jLabel66)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize10))
-                                    .addGroup(Coffee10Layout.createSequentialGroup()
+                                    .addGroup(CaramelLayout.createSequentialGroup()
                                         .addComponent(jLabel68)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize10)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee10Layout.createSequentialGroup()
+                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CaramelLayout.createSequentialGroup()
                                 .addComponent(jLabel67)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize10))
-                            .addGroup(Coffee10Layout.createSequentialGroup()
+                            .addGroup(CaramelLayout.createSequentialGroup()
                                 .addComponent(jLabel69)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge10))))
-                    .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee10Layout.createSequentialGroup()
+                    .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(CaramelLayout.createSequentialGroup()
                             .addComponent(jLabel64)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner21))
-                        .addGroup(Coffee10Layout.createSequentialGroup()
-                            .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CaramelLayout.createSequentialGroup()
+                            .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName10)
                                 .addComponent(CoffeePrice10))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice14)
                                 .addComponent(coffeeName14)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee10Layout.createSequentialGroup()
+            .addGroup(CaramelLayout.createSequentialGroup()
                 .addComponent(CoffeeImage21, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee10Layout.setVerticalGroup(
-            Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee10Layout.createSequentialGroup()
+        CaramelLayout.setVerticalGroup(
+            CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CaramelLayout.createSequentialGroup()
                 .addComponent(CoffeeImage21, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName10)
                     .addComponent(coffeeName14))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice10)
                     .addComponent(coffeePrice14))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel64)
                     .addComponent(jSpinner21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee10Layout.createSequentialGroup()
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CaramelLayout.createSequentialGroup()
                         .addComponent(jLabel65)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize10)
                             .addComponent(jLabel66)))
-                    .addGroup(Coffee10Layout.createSequentialGroup()
+                    .addGroup(CaramelLayout.createSequentialGroup()
                         .addComponent(Item21)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize10)
                             .addComponent(jLabel67)
                             .addComponent(SmallSize10))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel68)
                     .addComponent(LargeSize10)
                     .addComponent(jLabel69)
@@ -1460,8 +1460,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Coffee11.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Espresso.setBackground(new java.awt.Color(246, 246, 246));
+        Espresso.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName11.setText("Name:");
 
@@ -1499,92 +1499,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee11Layout = new javax.swing.GroupLayout(Coffee11);
-        Coffee11.setLayout(Coffee11Layout);
-        Coffee11Layout.setHorizontalGroup(
-            Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee11Layout.createSequentialGroup()
+        javax.swing.GroupLayout EspressoLayout = new javax.swing.GroupLayout(Espresso);
+        Espresso.setLayout(EspressoLayout);
+        EspressoLayout.setHorizontalGroup(
+            EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EspressoLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee11Layout.createSequentialGroup()
-                        .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee11Layout.createSequentialGroup()
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EspressoLayout.createSequentialGroup()
+                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(EspressoLayout.createSequentialGroup()
                                 .addComponent(jLabel71)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item22))
-                            .addGroup(Coffee11Layout.createSequentialGroup()
+                            .addGroup(EspressoLayout.createSequentialGroup()
                                 .addComponent(CoffeSize11)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee11Layout.createSequentialGroup()
+                                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(EspressoLayout.createSequentialGroup()
                                         .addComponent(jLabel72)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize11))
-                                    .addGroup(Coffee11Layout.createSequentialGroup()
+                                    .addGroup(EspressoLayout.createSequentialGroup()
                                         .addComponent(jLabel74)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize11)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee11Layout.createSequentialGroup()
+                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(EspressoLayout.createSequentialGroup()
                                 .addComponent(jLabel73)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize11))
-                            .addGroup(Coffee11Layout.createSequentialGroup()
+                            .addGroup(EspressoLayout.createSequentialGroup()
                                 .addComponent(jLabel75)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge11))))
-                    .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee11Layout.createSequentialGroup()
+                    .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(EspressoLayout.createSequentialGroup()
                             .addComponent(jLabel70)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner22))
-                        .addGroup(Coffee11Layout.createSequentialGroup()
-                            .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(EspressoLayout.createSequentialGroup()
+                            .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName11)
                                 .addComponent(CoffeePrice11))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice15)
                                 .addComponent(coffeeName15)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee11Layout.createSequentialGroup()
+            .addGroup(EspressoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage22, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee11Layout.setVerticalGroup(
-            Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee11Layout.createSequentialGroup()
+        EspressoLayout.setVerticalGroup(
+            EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EspressoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage22, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName11)
                     .addComponent(coffeeName15))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice11)
                     .addComponent(coffeePrice15))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel70)
                     .addComponent(jSpinner22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee11Layout.createSequentialGroup()
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(EspressoLayout.createSequentialGroup()
                         .addComponent(jLabel71)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize11)
                             .addComponent(jLabel72)))
-                    .addGroup(Coffee11Layout.createSequentialGroup()
+                    .addGroup(EspressoLayout.createSequentialGroup()
                         .addComponent(Item22)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize11)
                             .addComponent(jLabel73)
                             .addComponent(SmallSize11))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel74)
                     .addComponent(LargeSize11)
                     .addComponent(jLabel75)
@@ -1592,8 +1592,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
-        Coffee12.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cortado.setBackground(new java.awt.Color(246, 246, 246));
+        Cortado.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName12.setText("Name:");
 
@@ -1631,92 +1631,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee12Layout = new javax.swing.GroupLayout(Coffee12);
-        Coffee12.setLayout(Coffee12Layout);
-        Coffee12Layout.setHorizontalGroup(
-            Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee12Layout.createSequentialGroup()
+        javax.swing.GroupLayout CortadoLayout = new javax.swing.GroupLayout(Cortado);
+        Cortado.setLayout(CortadoLayout);
+        CortadoLayout.setHorizontalGroup(
+            CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CortadoLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee12Layout.createSequentialGroup()
-                        .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee12Layout.createSequentialGroup()
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CortadoLayout.createSequentialGroup()
+                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CortadoLayout.createSequentialGroup()
                                 .addComponent(jLabel77)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item23))
-                            .addGroup(Coffee12Layout.createSequentialGroup()
+                            .addGroup(CortadoLayout.createSequentialGroup()
                                 .addComponent(CoffeSize12)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee12Layout.createSequentialGroup()
+                                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(CortadoLayout.createSequentialGroup()
                                         .addComponent(jLabel78)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize12))
-                                    .addGroup(Coffee12Layout.createSequentialGroup()
+                                    .addGroup(CortadoLayout.createSequentialGroup()
                                         .addComponent(jLabel80)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize12)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee12Layout.createSequentialGroup()
+                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CortadoLayout.createSequentialGroup()
                                 .addComponent(jLabel79)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize12))
-                            .addGroup(Coffee12Layout.createSequentialGroup()
+                            .addGroup(CortadoLayout.createSequentialGroup()
                                 .addComponent(jLabel81)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge12))))
-                    .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee12Layout.createSequentialGroup()
+                    .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(CortadoLayout.createSequentialGroup()
                             .addComponent(jLabel76)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner23))
-                        .addGroup(Coffee12Layout.createSequentialGroup()
-                            .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CortadoLayout.createSequentialGroup()
+                            .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName12)
                                 .addComponent(CoffeePrice12))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice16)
                                 .addComponent(coffeeName16)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee12Layout.createSequentialGroup()
+            .addGroup(CortadoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage23, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee12Layout.setVerticalGroup(
-            Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee12Layout.createSequentialGroup()
+        CortadoLayout.setVerticalGroup(
+            CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CortadoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage23, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName12)
                     .addComponent(coffeeName16))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice12)
                     .addComponent(coffeePrice16))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel76)
                     .addComponent(jSpinner23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee12Layout.createSequentialGroup()
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CortadoLayout.createSequentialGroup()
                         .addComponent(jLabel77)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize12)
                             .addComponent(jLabel78)))
-                    .addGroup(Coffee12Layout.createSequentialGroup()
+                    .addGroup(CortadoLayout.createSequentialGroup()
                         .addComponent(Item23)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize12)
                             .addComponent(jLabel79)
                             .addComponent(SmallSize12))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel80)
                     .addComponent(LargeSize12)
                     .addComponent(jLabel81)
@@ -1724,8 +1724,8 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
-        Coffee13.setBackground(new java.awt.Color(246, 246, 246));
-        Coffee13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cacao.setBackground(new java.awt.Color(246, 246, 246));
+        Cacao.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         CoffeeName13.setText("Name:");
 
@@ -1763,92 +1763,92 @@ public class CoffeeDashboad extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout Coffee13Layout = new javax.swing.GroupLayout(Coffee13);
-        Coffee13.setLayout(Coffee13Layout);
-        Coffee13Layout.setHorizontalGroup(
-            Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee13Layout.createSequentialGroup()
+        javax.swing.GroupLayout CacaoLayout = new javax.swing.GroupLayout(Cacao);
+        Cacao.setLayout(CacaoLayout);
+        CacaoLayout.setHorizontalGroup(
+            CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CacaoLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee13Layout.createSequentialGroup()
-                        .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee13Layout.createSequentialGroup()
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CacaoLayout.createSequentialGroup()
+                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CacaoLayout.createSequentialGroup()
                                 .addComponent(jLabel83)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Item24))
-                            .addGroup(Coffee13Layout.createSequentialGroup()
+                            .addGroup(CacaoLayout.createSequentialGroup()
                                 .addComponent(CoffeSize13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Coffee13Layout.createSequentialGroup()
+                                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(CacaoLayout.createSequentialGroup()
                                         .addComponent(jLabel84)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(SmallSize13))
-                                    .addGroup(Coffee13Layout.createSequentialGroup()
+                                    .addGroup(CacaoLayout.createSequentialGroup()
                                         .addComponent(jLabel86)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(LargeSize13)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Coffee13Layout.createSequentialGroup()
+                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CacaoLayout.createSequentialGroup()
                                 .addComponent(jLabel85)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(MediumSize13))
-                            .addGroup(Coffee13Layout.createSequentialGroup()
+                            .addGroup(CacaoLayout.createSequentialGroup()
                                 .addComponent(jLabel87)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(ExtraLarge13))))
-                    .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(Coffee13Layout.createSequentialGroup()
+                    .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(CacaoLayout.createSequentialGroup()
                             .addComponent(jLabel82)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addComponent(jSpinner24))
-                        .addGroup(Coffee13Layout.createSequentialGroup()
-                            .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CacaoLayout.createSequentialGroup()
+                            .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(CoffeeName13)
                                 .addComponent(CoffeePrice13))
                             .addGap(18, 18, 18)
-                            .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(coffeePrice17)
                                 .addComponent(coffeeName17)))))
                 .addGap(18, 18, 18))
-            .addGroup(Coffee13Layout.createSequentialGroup()
+            .addGroup(CacaoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage24, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        Coffee13Layout.setVerticalGroup(
-            Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Coffee13Layout.createSequentialGroup()
+        CacaoLayout.setVerticalGroup(
+            CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CacaoLayout.createSequentialGroup()
                 .addComponent(CoffeeImage24, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeeName13)
                     .addComponent(coffeeName17))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CoffeePrice13)
                     .addComponent(coffeePrice17))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel82)
                     .addComponent(jSpinner24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Coffee13Layout.createSequentialGroup()
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CacaoLayout.createSequentialGroup()
                         .addComponent(jLabel83)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(CoffeSize13)
                             .addComponent(jLabel84)))
-                    .addGroup(Coffee13Layout.createSequentialGroup()
+                    .addGroup(CacaoLayout.createSequentialGroup()
                         .addComponent(Item24)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(MediumSize13)
                             .addComponent(jLabel85)
                             .addComponent(SmallSize13))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(Coffee13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel86)
                     .addComponent(LargeSize13)
                     .addComponent(jLabel87)
@@ -1886,14 +1886,14 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(ConPanna, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Coffee11, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Espresso, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Coffee8, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                    .addComponent(Americano, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                                     .addComponent(WhiteMocha, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(36, 36, 36)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Coffee9, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(DarkChocolate, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Brewd, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -1902,7 +1902,7 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(39, 39, 39)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Coffee12, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Cortado, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Hazelnut, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(550, 550, 550)
@@ -1913,9 +1913,9 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(33, 33, 33)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Coffee10, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Caramel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Latte, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Coffee13, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Cacao, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(ToPastriesButton)
@@ -1930,22 +1930,22 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(Cappuccino, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Brewd, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Coffee10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Coffee8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Caramel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Americano, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(38, 38, 38)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(WhiteMocha, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Coffee9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(DarkChocolate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(Hazelnut, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(Latte, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGap(34, 34, 34)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Coffee11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Espresso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(ConPanna, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Coffee12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Coffee13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(Cortado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Cacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(52, 52, 52)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(ToFoodButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2133,8 +2133,11 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Americano;
     private javax.swing.JPanel Brewd;
+    private javax.swing.JPanel Cacao;
     private javax.swing.JPanel Cappuccino;
+    private javax.swing.JPanel Caramel;
     private javax.swing.JLabel CoffeSize1;
     private javax.swing.JLabel CoffeSize10;
     private javax.swing.JLabel CoffeSize11;
@@ -2147,12 +2150,6 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeSize7;
     private javax.swing.JLabel CoffeSize8;
     private javax.swing.JLabel CoffeSize9;
-    private javax.swing.JPanel Coffee10;
-    private javax.swing.JPanel Coffee11;
-    private javax.swing.JPanel Coffee12;
-    private javax.swing.JPanel Coffee13;
-    private javax.swing.JPanel Coffee8;
-    private javax.swing.JPanel Coffee9;
     private javax.swing.JLabel CoffeeImage12;
     private javax.swing.JLabel CoffeeImage13;
     private javax.swing.JLabel CoffeeImage15;
@@ -2191,6 +2188,9 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeePrice8;
     private javax.swing.JLabel CoffeePrice9;
     private javax.swing.JPanel ConPanna;
+    private javax.swing.JPanel Cortado;
+    private javax.swing.JPanel DarkChocolate;
+    private javax.swing.JPanel Espresso;
     private javax.swing.JCheckBox ExtraLarge1;
     private javax.swing.JCheckBox ExtraLarge10;
     private javax.swing.JCheckBox ExtraLarge11;
