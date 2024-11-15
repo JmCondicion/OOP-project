@@ -25,6 +25,18 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        AmericanoButtonGroup = new javax.swing.ButtonGroup();
+        BrewdButtonGroup = new javax.swing.ButtonGroup();
+        CappuccinoBTG = new javax.swing.ButtonGroup();
+        CaramelBTG = new javax.swing.ButtonGroup();
+        WhiteMochaBTG = new javax.swing.ButtonGroup();
+        DackChocolateBTG = new javax.swing.ButtonGroup();
+        HazelNutBTG = new javax.swing.ButtonGroup();
+        LatteBTG = new javax.swing.ButtonGroup();
+        ConPannaBTG = new javax.swing.ButtonGroup();
+        EspressoBTG = new javax.swing.ButtonGroup();
+        CortadoBTG = new javax.swing.ButtonGroup();
+        CacaoBTG = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         Cappuccino = new javax.swing.JPanel();
@@ -35,17 +47,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName5 = new javax.swing.JLabel();
         coffeePrice5 = new javax.swing.JLabel();
         CoffeSize1 = new javax.swing.JLabel();
-        jSpinner12 = new javax.swing.JSpinner();
         Item12 = new javax.swing.JCheckBox();
         CoffeeImage12 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        SmallSize1 = new javax.swing.JCheckBox();
-        MediumSize1 = new javax.swing.JCheckBox();
-        LargeSize1 = new javax.swing.JCheckBox();
-        ExtraLarge1 = new javax.swing.JCheckBox();
+        jCheckBox9 = new javax.swing.JCheckBox();
+        jCheckBox10 = new javax.swing.JCheckBox();
+        jCheckBox11 = new javax.swing.JCheckBox();
+        jCheckBox12 = new javax.swing.JCheckBox();
+        jComboBox3 = new javax.swing.JComboBox<>();
         ConPanna = new javax.swing.JPanel();
         CoffeeName2 = new javax.swing.JLabel();
         CoffeePrice2 = new javax.swing.JLabel();
@@ -54,17 +62,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName6 = new javax.swing.JLabel();
         coffeePrice6 = new javax.swing.JLabel();
         CoffeSize2 = new javax.swing.JLabel();
-        jSpinner13 = new javax.swing.JSpinner();
         Item13 = new javax.swing.JCheckBox();
         CoffeeImage13 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        SmallSize2 = new javax.swing.JCheckBox();
-        MediumSize2 = new javax.swing.JCheckBox();
-        LargeSize2 = new javax.swing.JCheckBox();
-        ExtraLarge2 = new javax.swing.JCheckBox();
+        jCheckBox29 = new javax.swing.JCheckBox();
+        jCheckBox30 = new javax.swing.JCheckBox();
+        jCheckBox31 = new javax.swing.JCheckBox();
+        jCheckBox32 = new javax.swing.JCheckBox();
+        jComboBox12 = new javax.swing.JComboBox<>();
         WhiteMocha = new javax.swing.JPanel();
         CoffeeName4 = new javax.swing.JLabel();
         CoffeePrice4 = new javax.swing.JLabel();
@@ -73,17 +77,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName8 = new javax.swing.JLabel();
         coffeePrice8 = new javax.swing.JLabel();
         CoffeSize4 = new javax.swing.JLabel();
-        jSpinner15 = new javax.swing.JSpinner();
         Item15 = new javax.swing.JCheckBox();
         CoffeeImage15 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        SmallSize4 = new javax.swing.JCheckBox();
-        MediumSize4 = new javax.swing.JCheckBox();
-        LargeSize4 = new javax.swing.JCheckBox();
-        ExtraLarge4 = new javax.swing.JCheckBox();
+        jCheckBox13 = new javax.swing.JCheckBox();
+        jCheckBox14 = new javax.swing.JCheckBox();
+        jCheckBox15 = new javax.swing.JCheckBox();
+        jCheckBox16 = new javax.swing.JCheckBox();
+        jComboBox11 = new javax.swing.JComboBox<>();
         Hazelnut = new javax.swing.JPanel();
         CoffeeName5 = new javax.swing.JLabel();
         CoffeePrice5 = new javax.swing.JLabel();
@@ -92,17 +92,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName9 = new javax.swing.JLabel();
         coffeePrice9 = new javax.swing.JLabel();
         CoffeSize5 = new javax.swing.JLabel();
-        jSpinner16 = new javax.swing.JSpinner();
         Item16 = new javax.swing.JCheckBox();
         CoffeeImage16 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        SmallSize5 = new javax.swing.JCheckBox();
-        MediumSize5 = new javax.swing.JCheckBox();
-        LargeSize5 = new javax.swing.JCheckBox();
-        ExtraLarge5 = new javax.swing.JCheckBox();
+        jCheckBox21 = new javax.swing.JCheckBox();
+        jCheckBox22 = new javax.swing.JCheckBox();
+        jCheckBox23 = new javax.swing.JCheckBox();
+        jCheckBox24 = new javax.swing.JCheckBox();
+        jComboBox7 = new javax.swing.JComboBox<>();
         Latte = new javax.swing.JPanel();
         CoffeeName6 = new javax.swing.JLabel();
         CoffeePrice6 = new javax.swing.JLabel();
@@ -111,17 +107,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName10 = new javax.swing.JLabel();
         coffeePrice10 = new javax.swing.JLabel();
         CoffeSize6 = new javax.swing.JLabel();
-        jSpinner17 = new javax.swing.JSpinner();
         Item17 = new javax.swing.JCheckBox();
         CoffeeImage17 = new javax.swing.JLabel();
-        jLabel42 = new javax.swing.JLabel();
-        jLabel43 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        SmallSize6 = new javax.swing.JCheckBox();
-        MediumSize6 = new javax.swing.JCheckBox();
-        LargeSize6 = new javax.swing.JCheckBox();
-        ExtraLarge6 = new javax.swing.JCheckBox();
+        jCheckBox25 = new javax.swing.JCheckBox();
+        jCheckBox26 = new javax.swing.JCheckBox();
+        jCheckBox27 = new javax.swing.JCheckBox();
+        jCheckBox28 = new javax.swing.JCheckBox();
+        jComboBox5 = new javax.swing.JComboBox<>();
         Brewd = new javax.swing.JPanel();
         CoffeeName7 = new javax.swing.JLabel();
         CoffeePrice7 = new javax.swing.JLabel();
@@ -130,17 +122,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName11 = new javax.swing.JLabel();
         coffeePrice11 = new javax.swing.JLabel();
         CoffeSize7 = new javax.swing.JLabel();
-        jSpinner18 = new javax.swing.JSpinner();
         Item18 = new javax.swing.JCheckBox();
         CoffeeImage18 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jLabel49 = new javax.swing.JLabel();
-        jLabel50 = new javax.swing.JLabel();
-        jLabel51 = new javax.swing.JLabel();
-        SmallSize7 = new javax.swing.JCheckBox();
-        MediumSize7 = new javax.swing.JCheckBox();
-        LargeSize7 = new javax.swing.JCheckBox();
-        ExtraLarge7 = new javax.swing.JCheckBox();
+        jCheckBox5 = new javax.swing.JCheckBox();
+        jCheckBox6 = new javax.swing.JCheckBox();
+        jCheckBox7 = new javax.swing.JCheckBox();
+        jCheckBox8 = new javax.swing.JCheckBox();
+        jComboBox2 = new javax.swing.JComboBox<>();
         Americano = new javax.swing.JPanel();
         CoffeeName8 = new javax.swing.JLabel();
         CoffeePrice8 = new javax.swing.JLabel();
@@ -149,17 +137,14 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName12 = new javax.swing.JLabel();
         coffeePrice12 = new javax.swing.JLabel();
         CoffeSize8 = new javax.swing.JLabel();
-        jSpinner19 = new javax.swing.JSpinner();
         Item19 = new javax.swing.JCheckBox();
         CoffeeImage19 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
-        SmallSize8 = new javax.swing.JCheckBox();
-        MediumSize8 = new javax.swing.JCheckBox();
-        LargeSize8 = new javax.swing.JCheckBox();
         ExtraLarge8 = new javax.swing.JCheckBox();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jCheckBox3 = new javax.swing.JCheckBox();
+        jCheckBox4 = new javax.swing.JCheckBox();
+        jComboBox1 = new javax.swing.JComboBox<>();
         DarkChocolate = new javax.swing.JPanel();
         CoffeeName9 = new javax.swing.JLabel();
         CoffeePrice9 = new javax.swing.JLabel();
@@ -168,17 +153,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName13 = new javax.swing.JLabel();
         coffeePrice13 = new javax.swing.JLabel();
         CoffeSize9 = new javax.swing.JLabel();
-        jSpinner20 = new javax.swing.JSpinner();
         Item20 = new javax.swing.JCheckBox();
         CoffeeImage20 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        SmallSize9 = new javax.swing.JCheckBox();
-        MediumSize9 = new javax.swing.JCheckBox();
-        LargeSize9 = new javax.swing.JCheckBox();
-        ExtraLarge9 = new javax.swing.JCheckBox();
+        jCheckBox17 = new javax.swing.JCheckBox();
+        jCheckBox18 = new javax.swing.JCheckBox();
+        jCheckBox19 = new javax.swing.JCheckBox();
+        jCheckBox20 = new javax.swing.JCheckBox();
+        jComboBox9 = new javax.swing.JComboBox<>();
         Caramel = new javax.swing.JPanel();
         CoffeeName10 = new javax.swing.JLabel();
         CoffeePrice10 = new javax.swing.JLabel();
@@ -187,17 +168,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName14 = new javax.swing.JLabel();
         coffeePrice14 = new javax.swing.JLabel();
         CoffeSize10 = new javax.swing.JLabel();
-        jSpinner21 = new javax.swing.JSpinner();
         Item21 = new javax.swing.JCheckBox();
         CoffeeImage21 = new javax.swing.JLabel();
-        jLabel66 = new javax.swing.JLabel();
-        jLabel67 = new javax.swing.JLabel();
-        jLabel68 = new javax.swing.JLabel();
-        jLabel69 = new javax.swing.JLabel();
-        SmallSize10 = new javax.swing.JCheckBox();
-        MediumSize10 = new javax.swing.JCheckBox();
-        LargeSize10 = new javax.swing.JCheckBox();
-        ExtraLarge10 = new javax.swing.JCheckBox();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jCheckBox45 = new javax.swing.JCheckBox();
+        jCheckBox46 = new javax.swing.JCheckBox();
+        jCheckBox47 = new javax.swing.JCheckBox();
+        jCheckBox48 = new javax.swing.JCheckBox();
         Espresso = new javax.swing.JPanel();
         CoffeeName11 = new javax.swing.JLabel();
         CoffeePrice11 = new javax.swing.JLabel();
@@ -206,17 +183,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName15 = new javax.swing.JLabel();
         coffeePrice15 = new javax.swing.JLabel();
         CoffeSize11 = new javax.swing.JLabel();
-        jSpinner22 = new javax.swing.JSpinner();
         Item22 = new javax.swing.JCheckBox();
         CoffeeImage22 = new javax.swing.JLabel();
-        jLabel72 = new javax.swing.JLabel();
-        jLabel73 = new javax.swing.JLabel();
-        jLabel74 = new javax.swing.JLabel();
-        jLabel75 = new javax.swing.JLabel();
-        SmallSize11 = new javax.swing.JCheckBox();
-        MediumSize11 = new javax.swing.JCheckBox();
-        LargeSize11 = new javax.swing.JCheckBox();
-        ExtraLarge11 = new javax.swing.JCheckBox();
+        jCheckBox33 = new javax.swing.JCheckBox();
+        jCheckBox34 = new javax.swing.JCheckBox();
+        jCheckBox35 = new javax.swing.JCheckBox();
+        jCheckBox36 = new javax.swing.JCheckBox();
+        jComboBox10 = new javax.swing.JComboBox<>();
         Cortado = new javax.swing.JPanel();
         CoffeeName12 = new javax.swing.JLabel();
         CoffeePrice12 = new javax.swing.JLabel();
@@ -225,17 +198,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName16 = new javax.swing.JLabel();
         coffeePrice16 = new javax.swing.JLabel();
         CoffeSize12 = new javax.swing.JLabel();
-        jSpinner23 = new javax.swing.JSpinner();
         Item23 = new javax.swing.JCheckBox();
         CoffeeImage23 = new javax.swing.JLabel();
-        jLabel78 = new javax.swing.JLabel();
-        jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
-        jLabel81 = new javax.swing.JLabel();
-        SmallSize12 = new javax.swing.JCheckBox();
-        MediumSize12 = new javax.swing.JCheckBox();
-        LargeSize12 = new javax.swing.JCheckBox();
-        ExtraLarge12 = new javax.swing.JCheckBox();
+        jCheckBox37 = new javax.swing.JCheckBox();
+        jCheckBox38 = new javax.swing.JCheckBox();
+        jCheckBox39 = new javax.swing.JCheckBox();
+        jCheckBox40 = new javax.swing.JCheckBox();
+        jComboBox8 = new javax.swing.JComboBox<>();
         Cacao = new javax.swing.JPanel();
         CoffeeName13 = new javax.swing.JLabel();
         CoffeePrice13 = new javax.swing.JLabel();
@@ -244,1617 +213,853 @@ public class CoffeeDashboad extends javax.swing.JFrame {
         coffeeName17 = new javax.swing.JLabel();
         coffeePrice17 = new javax.swing.JLabel();
         CoffeSize13 = new javax.swing.JLabel();
-        jSpinner24 = new javax.swing.JSpinner();
         Item24 = new javax.swing.JCheckBox();
         CoffeeImage24 = new javax.swing.JLabel();
-        jLabel84 = new javax.swing.JLabel();
-        jLabel85 = new javax.swing.JLabel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
-        SmallSize13 = new javax.swing.JCheckBox();
-        MediumSize13 = new javax.swing.JCheckBox();
-        LargeSize13 = new javax.swing.JCheckBox();
-        ExtraLarge13 = new javax.swing.JCheckBox();
+        jCheckBox41 = new javax.swing.JCheckBox();
+        jCheckBox42 = new javax.swing.JCheckBox();
+        jCheckBox43 = new javax.swing.JCheckBox();
+        jCheckBox44 = new javax.swing.JCheckBox();
+        jComboBox6 = new javax.swing.JComboBox<>();
         ToFoodButton = new javax.swing.JButton();
         ToDrinksbutton = new javax.swing.JButton();
         ToPastriesButton = new javax.swing.JButton();
         ToReceiptButton = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         LogoName = new javax.swing.JLabel();
         CoffeeMenu = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jScrollPane1.setBackground(new java.awt.Color(230, 183, 153));
-        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Cappuccino.setBackground(new java.awt.Color(246, 246, 246));
         Cappuccino.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cappuccino.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName1.setText("Name:");
+        Cappuccino.add(CoffeeName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice1.setText("Price");
+        Cappuccino.add(CoffeePrice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel10.setText("Quantity");
+        Cappuccino.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel11.setText("Purchase");
+        Cappuccino.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName5.setText("Cappuccino");
+        Cappuccino.add(coffeeName5, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice5.setText("Php: 140");
+        Cappuccino.add(coffeePrice5, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize1.setText("Size");
+        Cappuccino.add(CoffeSize1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Cappuccino.add(Item12, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/cappuccino coffee.jpg"))); // NOI18N
+        Cappuccino.add(CoffeeImage12, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel12.setText("Small");
-
-        jLabel13.setText("Medium");
-
-        jLabel16.setText("Large");
-
-        jLabel17.setText("Extra Large");
-
-        SmallSize1.addActionListener(new java.awt.event.ActionListener() {
+        CappuccinoBTG.add(jCheckBox9);
+        jCheckBox9.setText("Large");
+        jCheckBox9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize1ActionPerformed(evt);
+                jCheckBox9ActionPerformed(evt);
             }
         });
+        Cappuccino.add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
 
-        ExtraLarge1.addActionListener(new java.awt.event.ActionListener() {
+        CappuccinoBTG.add(jCheckBox10);
+        jCheckBox10.setText("Small");
+        jCheckBox10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge1ActionPerformed(evt);
+                jCheckBox10ActionPerformed(evt);
             }
         });
+        Cappuccino.add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
 
-        javax.swing.GroupLayout CappuccinoLayout = new javax.swing.GroupLayout(Cappuccino);
-        Cappuccino.setLayout(CappuccinoLayout);
-        CappuccinoLayout.setHorizontalGroup(
-            CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CappuccinoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CappuccinoLayout.createSequentialGroup()
-                        .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CappuccinoLayout.createSequentialGroup()
-                                .addComponent(jLabel11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item12))
-                            .addGroup(CappuccinoLayout.createSequentialGroup()
-                                .addComponent(CoffeSize1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(CappuccinoLayout.createSequentialGroup()
-                                        .addComponent(jLabel12)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize1))
-                                    .addGroup(CappuccinoLayout.createSequentialGroup()
-                                        .addComponent(jLabel16)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize1)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CappuccinoLayout.createSequentialGroup()
-                                .addComponent(jLabel13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize1))
-                            .addGroup(CappuccinoLayout.createSequentialGroup()
-                                .addComponent(jLabel17)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge1))))
-                    .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(CappuccinoLayout.createSequentialGroup()
-                            .addComponent(jLabel10)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner12))
-                        .addGroup(CappuccinoLayout.createSequentialGroup()
-                            .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName1)
-                                .addComponent(CoffeePrice1))
-                            .addGap(18, 18, 18)
-                            .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice5)
-                                .addComponent(coffeeName5)))))
-                .addGap(18, 18, 18))
-            .addGroup(CappuccinoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage12, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        CappuccinoLayout.setVerticalGroup(
-            CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CappuccinoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage12, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName1)
-                    .addComponent(coffeeName5))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice1)
-                    .addComponent(coffeePrice5))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(jSpinner12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CappuccinoLayout.createSequentialGroup()
-                        .addComponent(jLabel11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize1)
-                            .addComponent(jLabel12)))
-                    .addGroup(CappuccinoLayout.createSequentialGroup()
-                        .addComponent(Item12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize1)
-                            .addComponent(jLabel13)
-                            .addComponent(SmallSize1))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CappuccinoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel16)
-                    .addComponent(LargeSize1)
-                    .addComponent(jLabel17)
-                    .addComponent(ExtraLarge1))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        CappuccinoBTG.add(jCheckBox11);
+        jCheckBox11.setText("Extra Large");
+        jCheckBox11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox11ActionPerformed(evt);
+            }
+        });
+        Cappuccino.add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 290, -1, -1));
+
+        CappuccinoBTG.add(jCheckBox12);
+        jCheckBox12.setText("Medium");
+        jCheckBox12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox12ActionPerformed(evt);
+            }
+        });
+        Cappuccino.add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, -1));
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Cappuccino.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Cappuccino, new org.netbeans.lib.awtextra.AbsoluteConstraints(508, 19, 211, 332));
 
         ConPanna.setBackground(new java.awt.Color(246, 246, 246));
         ConPanna.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        ConPanna.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName2.setText("Name:");
+        ConPanna.add(CoffeeName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice2.setText("Price");
+        ConPanna.add(CoffeePrice2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel14.setText("Quantity");
+        ConPanna.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel15.setText("Purchase");
+        ConPanna.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName6.setText("Con Panna ");
+        ConPanna.add(coffeeName6, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice6.setText("Php: 120");
+        ConPanna.add(coffeePrice6, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize2.setText("Size");
+        ConPanna.add(CoffeSize2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        ConPanna.add(Item13, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Con panna coffee.jpg"))); // NOI18N
+        ConPanna.add(CoffeeImage13, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel18.setText("Small");
-
-        jLabel19.setText("Medium");
-
-        jLabel20.setText("Large");
-
-        jLabel21.setText("Extra Large");
-
-        SmallSize2.addActionListener(new java.awt.event.ActionListener() {
+        ConPannaBTG.add(jCheckBox29);
+        jCheckBox29.setText("Extra Large");
+        jCheckBox29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize2ActionPerformed(evt);
+                jCheckBox29ActionPerformed(evt);
             }
         });
+        ConPanna.add(jCheckBox29, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, -1, -1));
 
-        ExtraLarge2.addActionListener(new java.awt.event.ActionListener() {
+        ConPannaBTG.add(jCheckBox30);
+        jCheckBox30.setText("Small");
+        jCheckBox30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge2ActionPerformed(evt);
+                jCheckBox30ActionPerformed(evt);
             }
         });
+        ConPanna.add(jCheckBox30, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
-        javax.swing.GroupLayout ConPannaLayout = new javax.swing.GroupLayout(ConPanna);
-        ConPanna.setLayout(ConPannaLayout);
-        ConPannaLayout.setHorizontalGroup(
-            ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(ConPannaLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(ConPannaLayout.createSequentialGroup()
-                        .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(ConPannaLayout.createSequentialGroup()
-                                .addComponent(jLabel15)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item13))
-                            .addGroup(ConPannaLayout.createSequentialGroup()
-                                .addComponent(CoffeSize2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(ConPannaLayout.createSequentialGroup()
-                                        .addComponent(jLabel18)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize2))
-                                    .addGroup(ConPannaLayout.createSequentialGroup()
-                                        .addComponent(jLabel20)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize2)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(ConPannaLayout.createSequentialGroup()
-                                .addComponent(jLabel19)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize2))
-                            .addGroup(ConPannaLayout.createSequentialGroup()
-                                .addComponent(jLabel21)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge2))))
-                    .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(ConPannaLayout.createSequentialGroup()
-                            .addComponent(jLabel14)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner13))
-                        .addGroup(ConPannaLayout.createSequentialGroup()
-                            .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName2)
-                                .addComponent(CoffeePrice2))
-                            .addGap(18, 18, 18)
-                            .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice6)
-                                .addComponent(coffeeName6)))))
-                .addGap(18, 18, 18))
-            .addGroup(ConPannaLayout.createSequentialGroup()
-                .addComponent(CoffeeImage13, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        ConPannaLayout.setVerticalGroup(
-            ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(ConPannaLayout.createSequentialGroup()
-                .addComponent(CoffeeImage13, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName2)
-                    .addComponent(coffeeName6))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice2)
-                    .addComponent(coffeePrice6))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(jSpinner13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(ConPannaLayout.createSequentialGroup()
-                        .addComponent(jLabel15)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize2)
-                            .addComponent(jLabel18)))
-                    .addGroup(ConPannaLayout.createSequentialGroup()
-                        .addComponent(Item13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize2)
-                            .addComponent(jLabel19)
-                            .addComponent(SmallSize2))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(ConPannaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel20)
-                    .addComponent(LargeSize2)
-                    .addComponent(jLabel21)
-                    .addComponent(ExtraLarge2))
-                .addContainerGap(49, Short.MAX_VALUE))
-        );
+        ConPannaBTG.add(jCheckBox31);
+        jCheckBox31.setText("Medium");
+        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox31ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(jCheckBox31, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, -1, -1));
+
+        ConPannaBTG.add(jCheckBox32);
+        jCheckBox32.setText("Large");
+        jCheckBox32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox32ActionPerformed(evt);
+            }
+        });
+        ConPanna.add(jCheckBox32, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
+
+        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        ConPanna.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(ConPanna, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 798, 211, 316));
 
         WhiteMocha.setBackground(new java.awt.Color(246, 246, 246));
         WhiteMocha.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        WhiteMocha.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName4.setText("Name:");
+        WhiteMocha.add(CoffeeName4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice4.setText("Price");
+        WhiteMocha.add(CoffeePrice4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel28.setText("Quantity");
+        WhiteMocha.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel29.setText("Purchase");
+        WhiteMocha.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName8.setText("White Mocha ");
+        WhiteMocha.add(coffeeName8, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice8.setText("Php:  180");
+        WhiteMocha.add(coffeePrice8, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 181, -1, -1));
 
         CoffeSize4.setText("Size");
+        WhiteMocha.add(CoffeSize4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        WhiteMocha.add(Item15, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/white mocha.jpg"))); // NOI18N
+        WhiteMocha.add(CoffeeImage15, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel30.setText("Small");
+        WhiteMochaBTG.add(jCheckBox13);
+        jCheckBox13.setText("Extra Large");
+        WhiteMocha.add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, -1));
 
-        jLabel31.setText("Medium");
+        WhiteMochaBTG.add(jCheckBox14);
+        jCheckBox14.setText("Small");
+        WhiteMocha.add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
 
-        jLabel32.setText("Large");
+        WhiteMochaBTG.add(jCheckBox15);
+        jCheckBox15.setText("Medium");
+        WhiteMocha.add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
 
-        jLabel33.setText("Extra Large");
+        WhiteMochaBTG.add(jCheckBox16);
+        jCheckBox16.setText("Large");
+        WhiteMocha.add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        SmallSize4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize4ActionPerformed(evt);
-            }
-        });
+        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        WhiteMocha.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
 
-        ExtraLarge4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge4ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout WhiteMochaLayout = new javax.swing.GroupLayout(WhiteMocha);
-        WhiteMocha.setLayout(WhiteMochaLayout);
-        WhiteMochaLayout.setHorizontalGroup(
-            WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(WhiteMochaLayout.createSequentialGroup()
-                        .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                .addComponent(jLabel29)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item15))
-                            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                .addComponent(CoffeSize4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                        .addComponent(jLabel30)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize4))
-                                    .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                        .addComponent(jLabel32)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize4)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                .addComponent(jLabel31)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize4))
-                            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                .addComponent(jLabel33)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge4))))
-                    .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(WhiteMochaLayout.createSequentialGroup()
-                            .addComponent(jLabel28)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner15))
-                        .addGroup(WhiteMochaLayout.createSequentialGroup()
-                            .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName4)
-                                .addComponent(CoffeePrice4))
-                            .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                    .addGap(18, 18, 18)
-                                    .addComponent(coffeeName8))
-                                .addGroup(WhiteMochaLayout.createSequentialGroup()
-                                    .addGap(23, 23, 23)
-                                    .addComponent(coffeePrice8))))))
-                .addGap(18, 18, 18))
-            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                .addComponent(CoffeeImage15, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        WhiteMochaLayout.setVerticalGroup(
-            WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(WhiteMochaLayout.createSequentialGroup()
-                .addComponent(CoffeeImage15, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName4)
-                    .addComponent(coffeeName8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice4)
-                    .addComponent(coffeePrice8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel28)
-                    .addComponent(jSpinner15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(WhiteMochaLayout.createSequentialGroup()
-                        .addComponent(jLabel29)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize4)
-                            .addComponent(jLabel30)))
-                    .addGroup(WhiteMochaLayout.createSequentialGroup()
-                        .addComponent(Item15)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize4)
-                            .addComponent(jLabel31)
-                            .addComponent(SmallSize4))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(WhiteMochaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel32)
-                    .addComponent(LargeSize4)
-                    .addComponent(jLabel33)
-                    .addComponent(ExtraLarge4))
-                .addContainerGap(27, Short.MAX_VALUE))
-        );
+        jPanel1.add(WhiteMocha, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 389, 211, 348));
 
         Hazelnut.setBackground(new java.awt.Color(246, 246, 246));
         Hazelnut.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Hazelnut.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName5.setText("Name:");
+        Hazelnut.add(CoffeeName5, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice5.setText("Price");
+        Hazelnut.add(CoffeePrice5, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel34.setText("Quantity");
+        Hazelnut.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel35.setText("Purchase");
+        Hazelnut.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName9.setText("Hazelnut ");
+        Hazelnut.add(coffeeName9, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice9.setText("Php: 130");
+        Hazelnut.add(coffeePrice9, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize5.setText("Size");
+        Hazelnut.add(CoffeSize5, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Hazelnut.add(Item16, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Hazelnut coffee.jpg"))); // NOI18N
+        Hazelnut.add(CoffeeImage16, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel36.setText("Small");
-
-        jLabel37.setText("Medium");
-
-        jLabel38.setText("Large");
-
-        jLabel39.setText("Extra Large");
-
-        SmallSize5.addActionListener(new java.awt.event.ActionListener() {
+        HazelNutBTG.add(jCheckBox21);
+        jCheckBox21.setText("Extra Large");
+        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize5ActionPerformed(evt);
+                jCheckBox21ActionPerformed(evt);
             }
         });
+        Hazelnut.add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 290, -1, -1));
 
-        ExtraLarge5.addActionListener(new java.awt.event.ActionListener() {
+        HazelNutBTG.add(jCheckBox22);
+        jCheckBox22.setText("Small");
+        jCheckBox22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge5ActionPerformed(evt);
+                jCheckBox22ActionPerformed(evt);
             }
         });
+        Hazelnut.add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
 
-        javax.swing.GroupLayout HazelnutLayout = new javax.swing.GroupLayout(Hazelnut);
-        Hazelnut.setLayout(HazelnutLayout);
-        HazelnutLayout.setHorizontalGroup(
-            HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(HazelnutLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(HazelnutLayout.createSequentialGroup()
-                        .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(HazelnutLayout.createSequentialGroup()
-                                .addComponent(jLabel35)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item16))
-                            .addGroup(HazelnutLayout.createSequentialGroup()
-                                .addComponent(CoffeSize5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(HazelnutLayout.createSequentialGroup()
-                                        .addComponent(jLabel36)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize5))
-                                    .addGroup(HazelnutLayout.createSequentialGroup()
-                                        .addComponent(jLabel38)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize5)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(HazelnutLayout.createSequentialGroup()
-                                .addComponent(jLabel37)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize5))
-                            .addGroup(HazelnutLayout.createSequentialGroup()
-                                .addComponent(jLabel39)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge5))))
-                    .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(HazelnutLayout.createSequentialGroup()
-                            .addComponent(jLabel34)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner16))
-                        .addGroup(HazelnutLayout.createSequentialGroup()
-                            .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName5)
-                                .addComponent(CoffeePrice5))
-                            .addGap(18, 18, 18)
-                            .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice9)
-                                .addComponent(coffeeName9)))))
-                .addGap(18, 18, 18))
-            .addGroup(HazelnutLayout.createSequentialGroup()
-                .addComponent(CoffeeImage16, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        HazelnutLayout.setVerticalGroup(
-            HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(HazelnutLayout.createSequentialGroup()
-                .addComponent(CoffeeImage16, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName5)
-                    .addComponent(coffeeName9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice5)
-                    .addComponent(coffeePrice9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel34)
-                    .addComponent(jSpinner16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(HazelnutLayout.createSequentialGroup()
-                        .addComponent(jLabel35)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize5)
-                            .addComponent(jLabel36)))
-                    .addGroup(HazelnutLayout.createSequentialGroup()
-                        .addComponent(Item16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize5)
-                            .addComponent(jLabel37)
-                            .addComponent(SmallSize5))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(HazelnutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel38)
-                    .addComponent(LargeSize5)
-                    .addComponent(jLabel39)
-                    .addComponent(ExtraLarge5))
-                .addContainerGap(27, Short.MAX_VALUE))
-        );
+        HazelNutBTG.add(jCheckBox23);
+        jCheckBox23.setText("Medium");
+        jCheckBox23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox23ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(jCheckBox23, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, -1));
+
+        HazelNutBTG.add(jCheckBox24);
+        jCheckBox24.setText("Large");
+        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox24ActionPerformed(evt);
+            }
+        });
+        Hazelnut.add(jCheckBox24, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
+
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Hazelnut.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Hazelnut, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 389, 211, 348));
 
         Latte.setBackground(new java.awt.Color(246, 246, 246));
         Latte.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Latte.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName6.setText("Name:");
+        Latte.add(CoffeeName6, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice6.setText("Price");
+        Latte.add(CoffeePrice6, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel40.setText("Quantity");
+        Latte.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel41.setText("Purchase");
+        Latte.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName10.setText("Latte ");
+        Latte.add(coffeeName10, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice10.setText("Php: 120");
+        Latte.add(coffeePrice10, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize6.setText("Size");
+        Latte.add(CoffeSize6, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Latte.add(Item17, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Latte coffee.jpg"))); // NOI18N
+        Latte.add(CoffeeImage17, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel42.setText("Small");
-
-        jLabel43.setText("Medium");
-
-        jLabel44.setText("Large");
-
-        jLabel45.setText("Extra Large");
-
-        SmallSize6.addActionListener(new java.awt.event.ActionListener() {
+        LatteBTG.add(jCheckBox25);
+        jCheckBox25.setText("Small");
+        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize6ActionPerformed(evt);
+                jCheckBox25ActionPerformed(evt);
             }
         });
+        Latte.add(jCheckBox25, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
-        ExtraLarge6.addActionListener(new java.awt.event.ActionListener() {
+        LatteBTG.add(jCheckBox26);
+        jCheckBox26.setText("Extra Large");
+        jCheckBox26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge6ActionPerformed(evt);
+                jCheckBox26ActionPerformed(evt);
             }
         });
+        Latte.add(jCheckBox26, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, -1));
 
-        javax.swing.GroupLayout LatteLayout = new javax.swing.GroupLayout(Latte);
-        Latte.setLayout(LatteLayout);
-        LatteLayout.setHorizontalGroup(
-            LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(LatteLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(LatteLayout.createSequentialGroup()
-                        .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(LatteLayout.createSequentialGroup()
-                                .addComponent(jLabel41)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item17))
-                            .addGroup(LatteLayout.createSequentialGroup()
-                                .addComponent(CoffeSize6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(LatteLayout.createSequentialGroup()
-                                        .addComponent(jLabel42)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize6))
-                                    .addGroup(LatteLayout.createSequentialGroup()
-                                        .addComponent(jLabel44)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize6)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(LatteLayout.createSequentialGroup()
-                                .addComponent(jLabel43)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize6))
-                            .addGroup(LatteLayout.createSequentialGroup()
-                                .addComponent(jLabel45)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge6))))
-                    .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(LatteLayout.createSequentialGroup()
-                            .addComponent(jLabel40)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner17))
-                        .addGroup(LatteLayout.createSequentialGroup()
-                            .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName6)
-                                .addComponent(CoffeePrice6))
-                            .addGap(18, 18, 18)
-                            .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice10)
-                                .addComponent(coffeeName10)))))
-                .addGap(18, 18, 18))
-            .addGroup(LatteLayout.createSequentialGroup()
-                .addComponent(CoffeeImage17, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        LatteLayout.setVerticalGroup(
-            LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(LatteLayout.createSequentialGroup()
-                .addComponent(CoffeeImage17, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName6)
-                    .addComponent(coffeeName10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice6)
-                    .addComponent(coffeePrice10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel40)
-                    .addComponent(jSpinner17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(LatteLayout.createSequentialGroup()
-                        .addComponent(jLabel41)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize6)
-                            .addComponent(jLabel42)))
-                    .addGroup(LatteLayout.createSequentialGroup()
-                        .addComponent(Item17)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize6)
-                            .addComponent(jLabel43)
-                            .addComponent(SmallSize6))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(LatteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel44)
-                    .addComponent(LargeSize6)
-                    .addComponent(jLabel45)
-                    .addComponent(ExtraLarge6))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        LatteBTG.add(jCheckBox27);
+        jCheckBox27.setText(" Large");
+        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox27ActionPerformed(evt);
+            }
+        });
+        Latte.add(jCheckBox27, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, -1, -1));
+
+        LatteBTG.add(jCheckBox28);
+        jCheckBox28.setText("Medium");
+        jCheckBox28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox28ActionPerformed(evt);
+            }
+        });
+        Latte.add(jCheckBox28, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
+
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Latte.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Latte, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 389, 211, 348));
 
         Brewd.setBackground(new java.awt.Color(246, 246, 246));
         Brewd.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Brewd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName7.setText("Name:");
+        Brewd.add(CoffeeName7, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice7.setText("Price");
+        Brewd.add(CoffeePrice7, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel46.setText("Quantity");
+        Brewd.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel47.setText("Purchase");
+        Brewd.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName11.setText("Brewd ");
+        Brewd.add(coffeeName11, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice11.setText("Php: 150");
+        Brewd.add(coffeePrice11, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize7.setText("Size");
+        Brewd.add(CoffeSize7, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Brewd.add(Item18, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Brewed Coffee.jpg"))); // NOI18N
+        Brewd.add(CoffeeImage18, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 205, 148));
 
-        jLabel48.setText("Small");
+        BrewdButtonGroup.add(jCheckBox5);
+        jCheckBox5.setText("Small");
+        Brewd.add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
 
-        jLabel49.setText("Medium");
-
-        jLabel50.setText("Large");
-
-        jLabel51.setText("Extra Large");
-
-        SmallSize7.addActionListener(new java.awt.event.ActionListener() {
+        BrewdButtonGroup.add(jCheckBox6);
+        jCheckBox6.setText("Extra Large");
+        jCheckBox6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize7ActionPerformed(evt);
+                jCheckBox6ActionPerformed(evt);
             }
         });
+        Brewd.add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, -1));
 
-        ExtraLarge7.addActionListener(new java.awt.event.ActionListener() {
+        BrewdButtonGroup.add(jCheckBox7);
+        jCheckBox7.setText("Medium");
+        jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge7ActionPerformed(evt);
+                jCheckBox7ActionPerformed(evt);
             }
         });
+        Brewd.add(jCheckBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
 
-        javax.swing.GroupLayout BrewdLayout = new javax.swing.GroupLayout(Brewd);
-        Brewd.setLayout(BrewdLayout);
-        BrewdLayout.setHorizontalGroup(
-            BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BrewdLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BrewdLayout.createSequentialGroup()
-                        .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BrewdLayout.createSequentialGroup()
-                                .addComponent(jLabel47)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item18))
-                            .addGroup(BrewdLayout.createSequentialGroup()
-                                .addComponent(CoffeSize7)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(BrewdLayout.createSequentialGroup()
-                                        .addComponent(jLabel48)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize7))
-                                    .addGroup(BrewdLayout.createSequentialGroup()
-                                        .addComponent(jLabel50)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize7)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BrewdLayout.createSequentialGroup()
-                                .addComponent(jLabel49)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize7))
-                            .addGroup(BrewdLayout.createSequentialGroup()
-                                .addComponent(jLabel51)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge7))))
-                    .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(BrewdLayout.createSequentialGroup()
-                            .addComponent(jLabel46)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner18))
-                        .addGroup(BrewdLayout.createSequentialGroup()
-                            .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName7)
-                                .addComponent(CoffeePrice7))
-                            .addGap(18, 18, 18)
-                            .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice11)
-                                .addComponent(coffeeName11)))))
-                .addGap(18, 18, 18))
-            .addGroup(BrewdLayout.createSequentialGroup()
-                .addComponent(CoffeeImage18, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        BrewdLayout.setVerticalGroup(
-            BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BrewdLayout.createSequentialGroup()
-                .addComponent(CoffeeImage18, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName7)
-                    .addComponent(coffeeName11))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice7)
-                    .addComponent(coffeePrice11))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel46)
-                    .addComponent(jSpinner18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BrewdLayout.createSequentialGroup()
-                        .addComponent(jLabel47)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize7)
-                            .addComponent(jLabel48)))
-                    .addGroup(BrewdLayout.createSequentialGroup()
-                        .addComponent(Item18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize7)
-                            .addComponent(jLabel49)
-                            .addComponent(SmallSize7))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(BrewdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel50)
-                    .addComponent(LargeSize7)
-                    .addComponent(jLabel51)
-                    .addComponent(ExtraLarge7))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        BrewdButtonGroup.add(jCheckBox8);
+        jCheckBox8.setText("Large");
+        jCheckBox8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox8ActionPerformed(evt);
+            }
+        });
+        Brewd.add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Brewd.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Brewd, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 19, 211, 332));
 
         Americano.setBackground(new java.awt.Color(246, 246, 246));
         Americano.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Americano.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName8.setText("Name:");
+        Americano.add(CoffeeName8, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice8.setText("Price");
+        Americano.add(CoffeePrice8, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel52.setText("Quantity");
+        Americano.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel53.setText("Purchase");
+        Americano.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName12.setText("Americano");
+        Americano.add(coffeeName12, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice12.setText("Php: 100");
+        Americano.add(coffeePrice12, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize8.setText("Size");
+        Americano.add(CoffeSize8, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 262, -1, -1));
+        Americano.add(Item19, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 237, -1, -1));
 
         CoffeeImage19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Americano.jpg"))); // NOI18N
-
-        jLabel54.setText("Small");
-
-        jLabel55.setText("Medium");
-
-        jLabel56.setText("Large");
-
-        jLabel57.setText("Extra Large");
-
-        SmallSize8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize8ActionPerformed(evt);
-            }
-        });
+        Americano.add(CoffeeImage19, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 276, 148));
 
         ExtraLarge8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ExtraLarge8ActionPerformed(evt);
             }
         });
+        Americano.add(ExtraLarge8, new org.netbeans.lib.awtextra.AbsoluteConstraints(252, 291, -1, -1));
 
-        javax.swing.GroupLayout AmericanoLayout = new javax.swing.GroupLayout(Americano);
-        Americano.setLayout(AmericanoLayout);
-        AmericanoLayout.setHorizontalGroup(
-            AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AmericanoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AmericanoLayout.createSequentialGroup()
-                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AmericanoLayout.createSequentialGroup()
-                                .addComponent(jLabel53)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item19))
-                            .addGroup(AmericanoLayout.createSequentialGroup()
-                                .addComponent(CoffeSize8)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(AmericanoLayout.createSequentialGroup()
-                                        .addComponent(jLabel54)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize8))
-                                    .addGroup(AmericanoLayout.createSequentialGroup()
-                                        .addComponent(jLabel56)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize8)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AmericanoLayout.createSequentialGroup()
-                                .addComponent(jLabel55)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize8))
-                            .addGroup(AmericanoLayout.createSequentialGroup()
-                                .addComponent(jLabel57)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge8))))
-                    .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(AmericanoLayout.createSequentialGroup()
-                            .addComponent(jLabel52)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner19))
-                        .addGroup(AmericanoLayout.createSequentialGroup()
-                            .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName8)
-                                .addComponent(CoffeePrice8))
-                            .addGap(18, 18, 18)
-                            .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice12)
-                                .addComponent(coffeeName12)))))
-                .addGap(18, 18, 18))
-            .addGroup(AmericanoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage19, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        AmericanoLayout.setVerticalGroup(
-            AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AmericanoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage19, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName8)
-                    .addComponent(coffeeName12))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice8)
-                    .addComponent(coffeePrice12))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel52)
-                    .addComponent(jSpinner19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AmericanoLayout.createSequentialGroup()
-                        .addComponent(jLabel53)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize8)
-                            .addComponent(jLabel54)))
-                    .addGroup(AmericanoLayout.createSequentialGroup()
-                        .addComponent(Item19)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize8)
-                            .addComponent(jLabel55)
-                            .addComponent(SmallSize8))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AmericanoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel56)
-                    .addComponent(LargeSize8)
-                    .addComponent(jLabel57)
-                    .addComponent(ExtraLarge8))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        AmericanoButtonGroup.add(jCheckBox1);
+        jCheckBox1.setText("Small");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+        Americano.add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 258, -1, -1));
+
+        AmericanoButtonGroup.add(jCheckBox2);
+        jCheckBox2.setText("Medium");
+        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox2ActionPerformed(evt);
+            }
+        });
+        Americano.add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 258, -1, -1));
+
+        AmericanoButtonGroup.add(jCheckBox3);
+        jCheckBox3.setText("Large");
+        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox3ActionPerformed(evt);
+            }
+        });
+        Americano.add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 288, -1, -1));
+
+        AmericanoButtonGroup.add(jCheckBox4);
+        jCheckBox4.setText("Extra Large");
+        jCheckBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox4ActionPerformed(evt);
+            }
+        });
+        Americano.add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 288, -1, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Americano.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Americano, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 19, 211, 332));
 
         DarkChocolate.setBackground(new java.awt.Color(246, 246, 246));
         DarkChocolate.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        DarkChocolate.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName9.setText("Name:");
+        DarkChocolate.add(CoffeeName9, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice9.setText("Price");
+        DarkChocolate.add(CoffeePrice9, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel58.setText("Quantity");
+        DarkChocolate.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel59.setText("Purchase");
+        DarkChocolate.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName13.setText("Dark Chocolate");
+        DarkChocolate.add(coffeeName13, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice13.setText("Php: 160");
+        DarkChocolate.add(coffeePrice13, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize9.setText("Size");
+        DarkChocolate.add(CoffeSize9, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        DarkChocolate.add(Item20, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/dark chocolate.jpg"))); // NOI18N
+        DarkChocolate.add(CoffeeImage20, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel60.setText("Small");
-
-        jLabel61.setText("Medium");
-
-        jLabel62.setText("Large");
-
-        jLabel63.setText("Extra Large");
-
-        SmallSize9.addActionListener(new java.awt.event.ActionListener() {
+        DackChocolateBTG.add(jCheckBox17);
+        jCheckBox17.setText("Large");
+        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize9ActionPerformed(evt);
+                jCheckBox17ActionPerformed(evt);
             }
         });
+        DarkChocolate.add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        ExtraLarge9.addActionListener(new java.awt.event.ActionListener() {
+        DackChocolateBTG.add(jCheckBox18);
+        jCheckBox18.setText("Extra Large");
+        jCheckBox18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge9ActionPerformed(evt);
+                jCheckBox18ActionPerformed(evt);
             }
         });
+        DarkChocolate.add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, -1));
 
-        javax.swing.GroupLayout DarkChocolateLayout = new javax.swing.GroupLayout(DarkChocolate);
-        DarkChocolate.setLayout(DarkChocolateLayout);
-        DarkChocolateLayout.setHorizontalGroup(
-            DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(DarkChocolateLayout.createSequentialGroup()
-                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                .addComponent(jLabel59)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item20))
-                            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                .addComponent(CoffeSize9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                        .addComponent(jLabel60)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize9))
-                                    .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                        .addComponent(jLabel62)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize9)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                .addComponent(jLabel61)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize9))
-                            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                                .addComponent(jLabel63)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge9))))
-                    .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(DarkChocolateLayout.createSequentialGroup()
-                            .addComponent(jLabel58)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner20))
-                        .addGroup(DarkChocolateLayout.createSequentialGroup()
-                            .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName9)
-                                .addComponent(CoffeePrice9))
-                            .addGap(18, 18, 18)
-                            .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice13)
-                                .addComponent(coffeeName13)))))
-                .addGap(18, 18, 18))
-            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                .addComponent(CoffeeImage20, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        DarkChocolateLayout.setVerticalGroup(
-            DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(DarkChocolateLayout.createSequentialGroup()
-                .addComponent(CoffeeImage20, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName9)
-                    .addComponent(coffeeName13))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice9)
-                    .addComponent(coffeePrice13))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel58)
-                    .addComponent(jSpinner20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(DarkChocolateLayout.createSequentialGroup()
-                        .addComponent(jLabel59)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize9)
-                            .addComponent(jLabel60)))
-                    .addGroup(DarkChocolateLayout.createSequentialGroup()
-                        .addComponent(Item20)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize9)
-                            .addComponent(jLabel61)
-                            .addComponent(SmallSize9))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(DarkChocolateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel62)
-                    .addComponent(LargeSize9)
-                    .addComponent(jLabel63)
-                    .addComponent(ExtraLarge9))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        DackChocolateBTG.add(jCheckBox19);
+        jCheckBox19.setText("Small");
+        jCheckBox19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox19ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
+
+        DackChocolateBTG.add(jCheckBox20);
+        jCheckBox20.setText("Medium");
+        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox20ActionPerformed(evt);
+            }
+        });
+        DarkChocolate.add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
+
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        DarkChocolate.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(DarkChocolate, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 389, 211, 348));
 
         Caramel.setBackground(new java.awt.Color(246, 246, 246));
         Caramel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Caramel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName10.setText("Name:");
+        Caramel.add(CoffeeName10, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice10.setText("Price");
+        Caramel.add(CoffeePrice10, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel64.setText("Quantity");
+        Caramel.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel65.setText("Purchase");
+        Caramel.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName14.setText("Caramel");
+        Caramel.add(coffeeName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice14.setText("Php: 150");
+        Caramel.add(coffeePrice14, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize10.setText("Size");
+        Caramel.add(CoffeSize10, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Caramel.add(Item21, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/caramel.jpg"))); // NOI18N
+        Caramel.add(CoffeeImage21, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel66.setText("Small");
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Caramel.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
 
-        jLabel67.setText("Medium");
-
-        jLabel68.setText("Large");
-
-        jLabel69.setText("Extra Large");
-
-        SmallSize10.addActionListener(new java.awt.event.ActionListener() {
+        CaramelBTG.add(jCheckBox45);
+        jCheckBox45.setText("Small");
+        jCheckBox45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize10ActionPerformed(evt);
+                jCheckBox45ActionPerformed(evt);
             }
         });
+        Caramel.add(jCheckBox45, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
 
-        ExtraLarge10.addActionListener(new java.awt.event.ActionListener() {
+        CaramelBTG.add(jCheckBox46);
+        jCheckBox46.setText("Medium");
+        jCheckBox46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge10ActionPerformed(evt);
+                jCheckBox46ActionPerformed(evt);
             }
         });
+        Caramel.add(jCheckBox46, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, -1));
 
-        javax.swing.GroupLayout CaramelLayout = new javax.swing.GroupLayout(Caramel);
-        Caramel.setLayout(CaramelLayout);
-        CaramelLayout.setHorizontalGroup(
-            CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CaramelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CaramelLayout.createSequentialGroup()
-                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CaramelLayout.createSequentialGroup()
-                                .addComponent(jLabel65)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item21))
-                            .addGroup(CaramelLayout.createSequentialGroup()
-                                .addComponent(CoffeSize10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(CaramelLayout.createSequentialGroup()
-                                        .addComponent(jLabel66)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize10))
-                                    .addGroup(CaramelLayout.createSequentialGroup()
-                                        .addComponent(jLabel68)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize10)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CaramelLayout.createSequentialGroup()
-                                .addComponent(jLabel67)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize10))
-                            .addGroup(CaramelLayout.createSequentialGroup()
-                                .addComponent(jLabel69)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge10))))
-                    .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(CaramelLayout.createSequentialGroup()
-                            .addComponent(jLabel64)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner21))
-                        .addGroup(CaramelLayout.createSequentialGroup()
-                            .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName10)
-                                .addComponent(CoffeePrice10))
-                            .addGap(18, 18, 18)
-                            .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice14)
-                                .addComponent(coffeeName14)))))
-                .addGap(18, 18, 18))
-            .addGroup(CaramelLayout.createSequentialGroup()
-                .addComponent(CoffeeImage21, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        CaramelLayout.setVerticalGroup(
-            CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CaramelLayout.createSequentialGroup()
-                .addComponent(CoffeeImage21, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName10)
-                    .addComponent(coffeeName14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice10)
-                    .addComponent(coffeePrice14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel64)
-                    .addComponent(jSpinner21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CaramelLayout.createSequentialGroup()
-                        .addComponent(jLabel65)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize10)
-                            .addComponent(jLabel66)))
-                    .addGroup(CaramelLayout.createSequentialGroup()
-                        .addComponent(Item21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize10)
-                            .addComponent(jLabel67)
-                            .addComponent(SmallSize10))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CaramelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel68)
-                    .addComponent(LargeSize10)
-                    .addComponent(jLabel69)
-                    .addComponent(ExtraLarge10))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        CaramelBTG.add(jCheckBox47);
+        jCheckBox47.setText("Large");
+        jCheckBox47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox47ActionPerformed(evt);
+            }
+        });
+        Caramel.add(jCheckBox47, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
+
+        CaramelBTG.add(jCheckBox48);
+        jCheckBox48.setText("Extra Large");
+        jCheckBox48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox48ActionPerformed(evt);
+            }
+        });
+        Caramel.add(jCheckBox48, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, -1));
+
+        jPanel1.add(Caramel, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 19, 211, 332));
 
         Espresso.setBackground(new java.awt.Color(246, 246, 246));
         Espresso.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Espresso.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName11.setText("Name:");
+        Espresso.add(CoffeeName11, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice11.setText("Price");
+        Espresso.add(CoffeePrice11, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel70.setText("Quantity");
+        Espresso.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel71.setText("Purchase");
+        Espresso.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName15.setText("Espresso");
+        Espresso.add(coffeeName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice15.setText("Php: 80");
+        Espresso.add(coffeePrice15, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize11.setText("Size");
+        Espresso.add(CoffeSize11, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Espresso.add(Item22, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Espresso coffee.jpg"))); // NOI18N
+        Espresso.add(CoffeeImage22, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel72.setText("Small");
-
-        jLabel73.setText("Medium");
-
-        jLabel74.setText("Large");
-
-        jLabel75.setText("Extra Large");
-
-        SmallSize11.addActionListener(new java.awt.event.ActionListener() {
+        EspressoBTG.add(jCheckBox33);
+        jCheckBox33.setText("Small");
+        jCheckBox33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize11ActionPerformed(evt);
+                jCheckBox33ActionPerformed(evt);
             }
         });
+        Espresso.add(jCheckBox33, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
 
-        ExtraLarge11.addActionListener(new java.awt.event.ActionListener() {
+        EspressoBTG.add(jCheckBox34);
+        jCheckBox34.setText("Extra Large");
+        jCheckBox34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge11ActionPerformed(evt);
+                jCheckBox34ActionPerformed(evt);
             }
         });
+        Espresso.add(jCheckBox34, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, -1, -1));
 
-        javax.swing.GroupLayout EspressoLayout = new javax.swing.GroupLayout(Espresso);
-        Espresso.setLayout(EspressoLayout);
-        EspressoLayout.setHorizontalGroup(
-            EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(EspressoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(EspressoLayout.createSequentialGroup()
-                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(EspressoLayout.createSequentialGroup()
-                                .addComponent(jLabel71)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item22))
-                            .addGroup(EspressoLayout.createSequentialGroup()
-                                .addComponent(CoffeSize11)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(EspressoLayout.createSequentialGroup()
-                                        .addComponent(jLabel72)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize11))
-                                    .addGroup(EspressoLayout.createSequentialGroup()
-                                        .addComponent(jLabel74)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize11)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(EspressoLayout.createSequentialGroup()
-                                .addComponent(jLabel73)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize11))
-                            .addGroup(EspressoLayout.createSequentialGroup()
-                                .addComponent(jLabel75)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge11))))
-                    .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(EspressoLayout.createSequentialGroup()
-                            .addComponent(jLabel70)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner22))
-                        .addGroup(EspressoLayout.createSequentialGroup()
-                            .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName11)
-                                .addComponent(CoffeePrice11))
-                            .addGap(18, 18, 18)
-                            .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice15)
-                                .addComponent(coffeeName15)))))
-                .addGap(18, 18, 18))
-            .addGroup(EspressoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage22, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        EspressoLayout.setVerticalGroup(
-            EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(EspressoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage22, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName11)
-                    .addComponent(coffeeName15))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice11)
-                    .addComponent(coffeePrice15))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel70)
-                    .addComponent(jSpinner22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(EspressoLayout.createSequentialGroup()
-                        .addComponent(jLabel71)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize11)
-                            .addComponent(jLabel72)))
-                    .addGroup(EspressoLayout.createSequentialGroup()
-                        .addComponent(Item22)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize11)
-                            .addComponent(jLabel73)
-                            .addComponent(SmallSize11))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(EspressoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel74)
-                    .addComponent(LargeSize11)
-                    .addComponent(jLabel75)
-                    .addComponent(ExtraLarge11))
-                .addContainerGap(49, Short.MAX_VALUE))
-        );
+        EspressoBTG.add(jCheckBox35);
+        jCheckBox35.setText("Medium");
+        jCheckBox35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox35ActionPerformed(evt);
+            }
+        });
+        Espresso.add(jCheckBox35, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, -1, -1));
+
+        EspressoBTG.add(jCheckBox36);
+        jCheckBox36.setText("Large");
+        jCheckBox36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox36ActionPerformed(evt);
+            }
+        });
+        Espresso.add(jCheckBox36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Espresso.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Espresso, new org.netbeans.lib.awtextra.AbsoluteConstraints(259, 798, 211, 323));
 
         Cortado.setBackground(new java.awt.Color(246, 246, 246));
         Cortado.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cortado.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName12.setText("Name:");
+        Cortado.add(CoffeeName12, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice12.setText("Price");
+        Cortado.add(CoffeePrice12, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel76.setText("Quantity");
+        Cortado.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel77.setText("Purchase");
+        Cortado.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName16.setText("Cortado ");
+        Cortado.add(coffeeName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice16.setText("Php: 110");
+        Cortado.add(coffeePrice16, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize12.setText("Size");
+        Cortado.add(CoffeSize12, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Cortado.add(Item23, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cortado coffee.jpg"))); // NOI18N
+        Cortado.add(CoffeeImage23, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel78.setText("Small");
-
-        jLabel79.setText("Medium");
-
-        jLabel80.setText("Large");
-
-        jLabel81.setText("Extra Large");
-
-        SmallSize12.addActionListener(new java.awt.event.ActionListener() {
+        CortadoBTG.add(jCheckBox37);
+        jCheckBox37.setText("Extra Large");
+        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize12ActionPerformed(evt);
+                jCheckBox37ActionPerformed(evt);
             }
         });
+        Cortado.add(jCheckBox37, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 290, -1, -1));
 
-        ExtraLarge12.addActionListener(new java.awt.event.ActionListener() {
+        CortadoBTG.add(jCheckBox38);
+        jCheckBox38.setText("Small");
+        jCheckBox38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge12ActionPerformed(evt);
+                jCheckBox38ActionPerformed(evt);
             }
         });
+        Cortado.add(jCheckBox38, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
 
-        javax.swing.GroupLayout CortadoLayout = new javax.swing.GroupLayout(Cortado);
-        Cortado.setLayout(CortadoLayout);
-        CortadoLayout.setHorizontalGroup(
-            CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CortadoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CortadoLayout.createSequentialGroup()
-                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CortadoLayout.createSequentialGroup()
-                                .addComponent(jLabel77)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item23))
-                            .addGroup(CortadoLayout.createSequentialGroup()
-                                .addComponent(CoffeSize12)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(CortadoLayout.createSequentialGroup()
-                                        .addComponent(jLabel78)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize12))
-                                    .addGroup(CortadoLayout.createSequentialGroup()
-                                        .addComponent(jLabel80)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize12)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CortadoLayout.createSequentialGroup()
-                                .addComponent(jLabel79)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize12))
-                            .addGroup(CortadoLayout.createSequentialGroup()
-                                .addComponent(jLabel81)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge12))))
-                    .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(CortadoLayout.createSequentialGroup()
-                            .addComponent(jLabel76)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner23))
-                        .addGroup(CortadoLayout.createSequentialGroup()
-                            .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName12)
-                                .addComponent(CoffeePrice12))
-                            .addGap(18, 18, 18)
-                            .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice16)
-                                .addComponent(coffeeName16)))))
-                .addGap(18, 18, 18))
-            .addGroup(CortadoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage23, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        CortadoLayout.setVerticalGroup(
-            CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CortadoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage23, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName12)
-                    .addComponent(coffeeName16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice12)
-                    .addComponent(coffeePrice16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel76)
-                    .addComponent(jSpinner23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CortadoLayout.createSequentialGroup()
-                        .addComponent(jLabel77)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize12)
-                            .addComponent(jLabel78)))
-                    .addGroup(CortadoLayout.createSequentialGroup()
-                        .addComponent(Item23)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize12)
-                            .addComponent(jLabel79)
-                            .addComponent(SmallSize12))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CortadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel80)
-                    .addComponent(LargeSize12)
-                    .addComponent(jLabel81)
-                    .addComponent(ExtraLarge12))
-                .addContainerGap(49, Short.MAX_VALUE))
-        );
+        CortadoBTG.add(jCheckBox39);
+        jCheckBox39.setText("Medium");
+        jCheckBox39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox39ActionPerformed(evt);
+            }
+        });
+        Cortado.add(jCheckBox39, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 260, -1, -1));
+
+        CortadoBTG.add(jCheckBox40);
+        jCheckBox40.setText("Large");
+        jCheckBox40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox40ActionPerformed(evt);
+            }
+        });
+        Cortado.add(jCheckBox40, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
+
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Cortado.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Cortado, new org.netbeans.lib.awtextra.AbsoluteConstraints(509, 798, 211, 323));
 
         Cacao.setBackground(new java.awt.Color(246, 246, 246));
         Cacao.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         CoffeeName13.setText("Name:");
+        Cacao.add(CoffeeName13, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 158, -1, -1));
 
         CoffeePrice13.setText("Price");
+        Cacao.add(CoffeePrice13, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 181, -1, -1));
 
         jLabel82.setText("Quantity");
+        Cacao.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 207, -1, -1));
 
         jLabel83.setText("Purchase");
+        Cacao.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 233, -1, -1));
 
         coffeeName17.setText("Cacao");
+        Cacao.add(coffeeName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 158, -1, -1));
 
         coffeePrice17.setText("Php: 170");
+        Cacao.add(coffeePrice17, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 181, -1, -1));
 
         CoffeSize13.setText("Size");
+        Cacao.add(CoffeSize13, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 256, -1, -1));
+        Cacao.add(Item24, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 233, -1, -1));
 
         CoffeeImage24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/Cacao.jpg"))); // NOI18N
+        Cacao.add(CoffeeImage24, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, 203, 148));
 
-        jLabel84.setText("Small");
-
-        jLabel85.setText("Medium");
-
-        jLabel86.setText("Large");
-
-        jLabel87.setText("Extra Large");
-
-        SmallSize13.addActionListener(new java.awt.event.ActionListener() {
+        CacaoBTG.add(jCheckBox41);
+        jCheckBox41.setText("Small");
+        jCheckBox41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SmallSize13ActionPerformed(evt);
+                jCheckBox41ActionPerformed(evt);
             }
         });
+        Cacao.add(jCheckBox41, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
 
-        ExtraLarge13.addActionListener(new java.awt.event.ActionListener() {
+        CacaoBTG.add(jCheckBox42);
+        jCheckBox42.setText("Extra Large");
+        jCheckBox42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ExtraLarge13ActionPerformed(evt);
+                jCheckBox42ActionPerformed(evt);
             }
         });
+        Cacao.add(jCheckBox42, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, -1));
 
-        javax.swing.GroupLayout CacaoLayout = new javax.swing.GroupLayout(Cacao);
-        Cacao.setLayout(CacaoLayout);
-        CacaoLayout.setHorizontalGroup(
-            CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CacaoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CacaoLayout.createSequentialGroup()
-                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CacaoLayout.createSequentialGroup()
-                                .addComponent(jLabel83)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Item24))
-                            .addGroup(CacaoLayout.createSequentialGroup()
-                                .addComponent(CoffeSize13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(CacaoLayout.createSequentialGroup()
-                                        .addComponent(jLabel84)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(SmallSize13))
-                                    .addGroup(CacaoLayout.createSequentialGroup()
-                                        .addComponent(jLabel86)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(LargeSize13)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CacaoLayout.createSequentialGroup()
-                                .addComponent(jLabel85)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(MediumSize13))
-                            .addGroup(CacaoLayout.createSequentialGroup()
-                                .addComponent(jLabel87)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ExtraLarge13))))
-                    .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(CacaoLayout.createSequentialGroup()
-                            .addComponent(jLabel82)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jSpinner24))
-                        .addGroup(CacaoLayout.createSequentialGroup()
-                            .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(CoffeeName13)
-                                .addComponent(CoffeePrice13))
-                            .addGap(18, 18, 18)
-                            .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(coffeePrice17)
-                                .addComponent(coffeeName17)))))
-                .addGap(18, 18, 18))
-            .addGroup(CacaoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage24, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        CacaoLayout.setVerticalGroup(
-            CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CacaoLayout.createSequentialGroup()
-                .addComponent(CoffeeImage24, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeeName13)
-                    .addComponent(coffeeName17))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CoffeePrice13)
-                    .addComponent(coffeePrice17))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel82)
-                    .addComponent(jSpinner24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CacaoLayout.createSequentialGroup()
-                        .addComponent(jLabel83)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(CoffeSize13)
-                            .addComponent(jLabel84)))
-                    .addGroup(CacaoLayout.createSequentialGroup()
-                        .addComponent(Item24)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(MediumSize13)
-                            .addComponent(jLabel85)
-                            .addComponent(SmallSize13))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(CacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel86)
-                    .addComponent(LargeSize13)
-                    .addComponent(jLabel87)
-                    .addComponent(ExtraLarge13))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        CacaoBTG.add(jCheckBox43);
+        jCheckBox43.setText("Medium");
+        jCheckBox43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox43ActionPerformed(evt);
+            }
+        });
+        Cacao.add(jCheckBox43, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, -1, -1));
+
+        CacaoBTG.add(jCheckBox44);
+        jCheckBox44.setText("Large");
+        jCheckBox44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox44ActionPerformed(evt);
+            }
+        });
+        Cacao.add(jCheckBox44, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }));
+        Cacao.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, -1, -1));
+
+        jPanel1.add(Cacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(753, 798, 211, 323));
 
         ToFoodButton.setText("Food");
         ToFoodButton.addActionListener(new java.awt.event.ActionListener() {
@@ -1862,10 +1067,13 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToFoodButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(ToFoodButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(556, 1147, 69, 38));
 
         ToDrinksbutton.setText("Drinks ");
+        jPanel1.add(ToDrinksbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(646, 1147, 74, 38));
 
         ToPastriesButton.setText("Pastries");
+        jPanel1.add(ToPastriesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(741, 1147, -1, 38));
 
         ToReceiptButton.setText("Total");
         ToReceiptButton.addActionListener(new java.awt.event.ActionListener() {
@@ -1873,221 +1081,36 @@ public class CoffeeDashboad extends javax.swing.JFrame {
                 ToReceiptButtonActionPerformed(evt);
             }
         });
+        jPanel1.add(ToReceiptButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(835, 1147, -1, 38));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(ConPanna, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Espresso, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Americano, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(WhiteMocha, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(36, 36, 36)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(DarkChocolate, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Brewd, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(38, 38, 38)
-                                .addComponent(Cappuccino, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(39, 39, 39)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Cortado, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Hazelnut, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(550, 550, 550)
-                        .addComponent(ToFoodButton, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(21, 21, 21)
-                        .addComponent(ToDrinksbutton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Caramel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Latte, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Cacao, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(ToPastriesButton)
-                        .addGap(21, 21, 21)
-                        .addComponent(ToReceiptButton)))
-                .addContainerGap(348, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Cappuccino, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Brewd, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Caramel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Americano, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(38, 38, 38)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(WhiteMocha, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(DarkChocolate, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(Hazelnut, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Latte, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGap(34, 34, 34)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Espresso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ConPanna, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Cortado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Cacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(52, 52, 52)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ToFoodButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToDrinksbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToPastriesButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ToReceiptButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(53, Short.MAX_VALUE))
-        );
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 1190));
 
         jScrollPane1.setViewportView(jPanel1);
 
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 570));
+
         LogoName.setBackground(new java.awt.Color(255, 255, 255));
         LogoName.setFont(new java.awt.Font("Vivaldi", 3, 36)); // NOI18N
+        LogoName.setForeground(new java.awt.Color(255, 255, 255));
         LogoName.setText("Elysian");
         LogoName.setToolTipText("");
+        getContentPane().add(LogoName, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 0, 229, 76));
 
         CoffeeMenu.setFont(new java.awt.Font("Segoe UI Historic", 3, 18)); // NOI18N
+        CoffeeMenu.setForeground(new java.awt.Color(255, 255, 255));
         CoffeeMenu.setText("Coffee Menu");
+        getContentPane().add(CoffeeMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(428, 14, 124, 55));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(5, 5, 5)
-                .addComponent(LogoName, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(194, 194, 194)
-                .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 986, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 20, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(LogoName, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CoffeeMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 546, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CoffeeImage/brgcoffee.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 810));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void SmallSize1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize1ActionPerformed
-
-    private void ExtraLarge1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge1ActionPerformed
-
-    private void SmallSize2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize2ActionPerformed
-
-    private void ExtraLarge2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge2ActionPerformed
-
-    private void SmallSize4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize4ActionPerformed
-
-    private void ExtraLarge4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge4ActionPerformed
-
-    private void SmallSize5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize5ActionPerformed
-
-    private void ExtraLarge5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge5ActionPerformed
-
-    private void SmallSize6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize6ActionPerformed
-
-    private void ExtraLarge6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge6ActionPerformed
-
-    private void SmallSize7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize7ActionPerformed
-
-    private void ExtraLarge7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge7ActionPerformed
-
-    private void SmallSize8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize8ActionPerformed
-
     private void ExtraLarge8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ExtraLarge8ActionPerformed
-
-    private void SmallSize9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize9ActionPerformed
-
-    private void ExtraLarge9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge9ActionPerformed
-
-    private void SmallSize10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize10ActionPerformed
-
-    private void ExtraLarge10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge10ActionPerformed
-
-    private void SmallSize11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize11ActionPerformed
-
-    private void ExtraLarge11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge11ActionPerformed
-
-    private void SmallSize12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize12ActionPerformed
-
-    private void ExtraLarge12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge12ActionPerformed
-
-    private void SmallSize13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SmallSize13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SmallSize13ActionPerformed
-
-    private void ExtraLarge13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExtraLarge13ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ExtraLarge13ActionPerformed
 
     private void ToReceiptButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToReceiptButtonActionPerformed
         // TODO add your handling code here:
@@ -2096,6 +1119,178 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private void ToFoodButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ToFoodButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ToFoodButtonActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
+
+    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox2ActionPerformed
+
+    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox3ActionPerformed
+
+    private void jCheckBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox4ActionPerformed
+
+    private void jCheckBox6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox6ActionPerformed
+
+    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox7ActionPerformed
+
+    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox8ActionPerformed
+
+    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox9ActionPerformed
+
+    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox10ActionPerformed
+
+    private void jCheckBox11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox11ActionPerformed
+
+    private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox12ActionPerformed
+
+    private void jCheckBox17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox17ActionPerformed
+
+    private void jCheckBox18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox18ActionPerformed
+
+    private void jCheckBox19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox19ActionPerformed
+
+    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox20ActionPerformed
+
+    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox21ActionPerformed
+
+    private void jCheckBox22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox22ActionPerformed
+
+    private void jCheckBox23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox23ActionPerformed
+
+    private void jCheckBox24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox24ActionPerformed
+
+    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox25ActionPerformed
+
+    private void jCheckBox26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox26ActionPerformed
+
+    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox27ActionPerformed
+
+    private void jCheckBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox28ActionPerformed
+
+    private void jCheckBox29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox29ActionPerformed
+
+    private void jCheckBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox30ActionPerformed
+
+    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox31ActionPerformed
+
+    private void jCheckBox32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox32ActionPerformed
+
+    private void jCheckBox33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox33ActionPerformed
+
+    private void jCheckBox34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox34ActionPerformed
+
+    private void jCheckBox35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox35ActionPerformed
+
+    private void jCheckBox36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox36ActionPerformed
+
+    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox37ActionPerformed
+
+    private void jCheckBox38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox38ActionPerformed
+
+    private void jCheckBox39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox39ActionPerformed
+
+    private void jCheckBox40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox40ActionPerformed
+
+    private void jCheckBox41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox41ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox41ActionPerformed
+
+    private void jCheckBox42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox42ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox42ActionPerformed
+
+    private void jCheckBox43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox43ActionPerformed
+
+    private void jCheckBox44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox44ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox44ActionPerformed
+
+    private void jCheckBox45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox45ActionPerformed
+
+    private void jCheckBox46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox46ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox46ActionPerformed
+
+    private void jCheckBox47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox47ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox47ActionPerformed
+
+    private void jCheckBox48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox48ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox48ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2134,10 +1329,15 @@ public class CoffeeDashboad extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Americano;
+    private javax.swing.ButtonGroup AmericanoButtonGroup;
     private javax.swing.JPanel Brewd;
+    private javax.swing.ButtonGroup BrewdButtonGroup;
     private javax.swing.JPanel Cacao;
+    private javax.swing.ButtonGroup CacaoBTG;
     private javax.swing.JPanel Cappuccino;
+    private javax.swing.ButtonGroup CappuccinoBTG;
     private javax.swing.JPanel Caramel;
+    private javax.swing.ButtonGroup CaramelBTG;
     private javax.swing.JLabel CoffeSize1;
     private javax.swing.JLabel CoffeSize10;
     private javax.swing.JLabel CoffeSize11;
@@ -2188,21 +1388,15 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel CoffeePrice8;
     private javax.swing.JLabel CoffeePrice9;
     private javax.swing.JPanel ConPanna;
+    private javax.swing.ButtonGroup ConPannaBTG;
     private javax.swing.JPanel Cortado;
+    private javax.swing.ButtonGroup CortadoBTG;
+    private javax.swing.ButtonGroup DackChocolateBTG;
     private javax.swing.JPanel DarkChocolate;
     private javax.swing.JPanel Espresso;
-    private javax.swing.JCheckBox ExtraLarge1;
-    private javax.swing.JCheckBox ExtraLarge10;
-    private javax.swing.JCheckBox ExtraLarge11;
-    private javax.swing.JCheckBox ExtraLarge12;
-    private javax.swing.JCheckBox ExtraLarge13;
-    private javax.swing.JCheckBox ExtraLarge2;
-    private javax.swing.JCheckBox ExtraLarge4;
-    private javax.swing.JCheckBox ExtraLarge5;
-    private javax.swing.JCheckBox ExtraLarge6;
-    private javax.swing.JCheckBox ExtraLarge7;
+    private javax.swing.ButtonGroup EspressoBTG;
     private javax.swing.JCheckBox ExtraLarge8;
-    private javax.swing.JCheckBox ExtraLarge9;
+    private javax.swing.ButtonGroup HazelNutBTG;
     private javax.swing.JPanel Hazelnut;
     private javax.swing.JCheckBox Item12;
     private javax.swing.JCheckBox Item13;
@@ -2216,49 +1410,15 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JCheckBox Item22;
     private javax.swing.JCheckBox Item23;
     private javax.swing.JCheckBox Item24;
-    private javax.swing.JCheckBox LargeSize1;
-    private javax.swing.JCheckBox LargeSize10;
-    private javax.swing.JCheckBox LargeSize11;
-    private javax.swing.JCheckBox LargeSize12;
-    private javax.swing.JCheckBox LargeSize13;
-    private javax.swing.JCheckBox LargeSize2;
-    private javax.swing.JCheckBox LargeSize4;
-    private javax.swing.JCheckBox LargeSize5;
-    private javax.swing.JCheckBox LargeSize6;
-    private javax.swing.JCheckBox LargeSize7;
-    private javax.swing.JCheckBox LargeSize8;
-    private javax.swing.JCheckBox LargeSize9;
     private javax.swing.JPanel Latte;
+    private javax.swing.ButtonGroup LatteBTG;
     private javax.swing.JLabel LogoName;
-    private javax.swing.JCheckBox MediumSize1;
-    private javax.swing.JCheckBox MediumSize10;
-    private javax.swing.JCheckBox MediumSize11;
-    private javax.swing.JCheckBox MediumSize12;
-    private javax.swing.JCheckBox MediumSize13;
-    private javax.swing.JCheckBox MediumSize2;
-    private javax.swing.JCheckBox MediumSize4;
-    private javax.swing.JCheckBox MediumSize5;
-    private javax.swing.JCheckBox MediumSize6;
-    private javax.swing.JCheckBox MediumSize7;
-    private javax.swing.JCheckBox MediumSize8;
-    private javax.swing.JCheckBox MediumSize9;
-    private javax.swing.JCheckBox SmallSize1;
-    private javax.swing.JCheckBox SmallSize10;
-    private javax.swing.JCheckBox SmallSize11;
-    private javax.swing.JCheckBox SmallSize12;
-    private javax.swing.JCheckBox SmallSize13;
-    private javax.swing.JCheckBox SmallSize2;
-    private javax.swing.JCheckBox SmallSize4;
-    private javax.swing.JCheckBox SmallSize5;
-    private javax.swing.JCheckBox SmallSize6;
-    private javax.swing.JCheckBox SmallSize7;
-    private javax.swing.JCheckBox SmallSize8;
-    private javax.swing.JCheckBox SmallSize9;
     private javax.swing.JButton ToDrinksbutton;
     private javax.swing.JButton ToFoodButton;
     private javax.swing.JButton ToPastriesButton;
     private javax.swing.JButton ToReceiptButton;
     private javax.swing.JPanel WhiteMocha;
+    private javax.swing.ButtonGroup WhiteMochaBTG;
     private javax.swing.JLabel coffeeName10;
     private javax.swing.JLabel coffeeName11;
     private javax.swing.JLabel coffeeName12;
@@ -2283,91 +1443,93 @@ public class CoffeeDashboad extends javax.swing.JFrame {
     private javax.swing.JLabel coffeePrice6;
     private javax.swing.JLabel coffeePrice8;
     private javax.swing.JLabel coffeePrice9;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox10;
+    private javax.swing.JCheckBox jCheckBox11;
+    private javax.swing.JCheckBox jCheckBox12;
+    private javax.swing.JCheckBox jCheckBox13;
+    private javax.swing.JCheckBox jCheckBox14;
+    private javax.swing.JCheckBox jCheckBox15;
+    private javax.swing.JCheckBox jCheckBox16;
+    private javax.swing.JCheckBox jCheckBox17;
+    private javax.swing.JCheckBox jCheckBox18;
+    private javax.swing.JCheckBox jCheckBox19;
+    private javax.swing.JCheckBox jCheckBox2;
+    private javax.swing.JCheckBox jCheckBox20;
+    private javax.swing.JCheckBox jCheckBox21;
+    private javax.swing.JCheckBox jCheckBox22;
+    private javax.swing.JCheckBox jCheckBox23;
+    private javax.swing.JCheckBox jCheckBox24;
+    private javax.swing.JCheckBox jCheckBox25;
+    private javax.swing.JCheckBox jCheckBox26;
+    private javax.swing.JCheckBox jCheckBox27;
+    private javax.swing.JCheckBox jCheckBox28;
+    private javax.swing.JCheckBox jCheckBox29;
+    private javax.swing.JCheckBox jCheckBox3;
+    private javax.swing.JCheckBox jCheckBox30;
+    private javax.swing.JCheckBox jCheckBox31;
+    private javax.swing.JCheckBox jCheckBox32;
+    private javax.swing.JCheckBox jCheckBox33;
+    private javax.swing.JCheckBox jCheckBox34;
+    private javax.swing.JCheckBox jCheckBox35;
+    private javax.swing.JCheckBox jCheckBox36;
+    private javax.swing.JCheckBox jCheckBox37;
+    private javax.swing.JCheckBox jCheckBox38;
+    private javax.swing.JCheckBox jCheckBox39;
+    private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JCheckBox jCheckBox40;
+    private javax.swing.JCheckBox jCheckBox41;
+    private javax.swing.JCheckBox jCheckBox42;
+    private javax.swing.JCheckBox jCheckBox43;
+    private javax.swing.JCheckBox jCheckBox44;
+    private javax.swing.JCheckBox jCheckBox45;
+    private javax.swing.JCheckBox jCheckBox46;
+    private javax.swing.JCheckBox jCheckBox47;
+    private javax.swing.JCheckBox jCheckBox48;
+    private javax.swing.JCheckBox jCheckBox5;
+    private javax.swing.JCheckBox jCheckBox6;
+    private javax.swing.JCheckBox jCheckBox7;
+    private javax.swing.JCheckBox jCheckBox8;
+    private javax.swing.JCheckBox jCheckBox9;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox10;
+    private javax.swing.JComboBox<String> jComboBox11;
+    private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
+    private javax.swing.JComboBox<String> jComboBox8;
+    private javax.swing.JComboBox<String> jComboBox9;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
-    private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
-    private javax.swing.JLabel jLabel68;
-    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
-    private javax.swing.JLabel jLabel72;
-    private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
-    private javax.swing.JLabel jLabel78;
-    private javax.swing.JLabel jLabel79;
-    private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel82;
     private javax.swing.JLabel jLabel83;
-    private javax.swing.JLabel jLabel84;
-    private javax.swing.JLabel jLabel85;
-    private javax.swing.JLabel jLabel86;
-    private javax.swing.JLabel jLabel87;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSpinner jSpinner12;
-    private javax.swing.JSpinner jSpinner13;
-    private javax.swing.JSpinner jSpinner15;
-    private javax.swing.JSpinner jSpinner16;
-    private javax.swing.JSpinner jSpinner17;
-    private javax.swing.JSpinner jSpinner18;
-    private javax.swing.JSpinner jSpinner19;
-    private javax.swing.JSpinner jSpinner20;
-    private javax.swing.JSpinner jSpinner21;
-    private javax.swing.JSpinner jSpinner22;
-    private javax.swing.JSpinner jSpinner23;
-    private javax.swing.JSpinner jSpinner24;
     // End of variables declaration//GEN-END:variables
 }
